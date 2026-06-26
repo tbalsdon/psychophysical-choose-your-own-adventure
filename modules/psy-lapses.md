@@ -1,12 +1,12 @@
 ---
-title: "Lapses and wobbly criteria"
-short_title: Lapses & wobbly criteria
+title: "Lapses"
+short_title: Lapses
 ---
 
-# Lapses and wobbly criteria
+# Lapses
 
 :::{note} Where you are
-Part of [Psychometrics](psy.md).
+Part of [Extended psychometric functions](psy-extended.md).
 :::
 
 So far, we have been assuming that our observer always responds based on their
@@ -38,49 +38,15 @@ lapse rate (cell 2), but this requires a lot of trials — it's easy for the fit
 biased by the extremes, so with few trials the lapse-rate parameter can really bias
 the measure.
 
-What about the stable criterion assumption? Let's say that, from trial to trial, the
-observer moves their criterion around randomly — as if their internal representation
-of what is vertical can shift slightly, or is noisy itself.
-
-:::{tip} This code is yours to edit
-Edit the numbers marked `👈` and re-run.
-:::
-
-:::{iframe} https://tbalsdon.github.io/psychophysical-choose-your-own-adventure/lite/notebooks/index.html?path=psy-wobbly.ipynb
-:width: 100%
-:label: nb-wobbly
-A criterion that jitters from trial to trial.
-:::
-
-[Open full-screen ↗](https://tbalsdon.github.io/psychophysical-choose-your-own-adventure/lite/notebooks/index.html?path=psy-wobbly.ipynb)
-
-The slope of the psychometric function is underestimated again. This time there is
-nothing we can do about it (or perhaps we could examine sequential dependencies in
-responses; Treisman & Williams, 1984; Azzopardi & Cowey, 2001; Vloeberghs et al.,
-2024).
-
-:::{important} Take-away
-Lapses and wobbly criteria make it look like the observer has a noisier internal
-value of the stimulus property than they really do.
-:::
-
 ## Where to go next
 
 ::::{grid} 1 1 2 2
-:::{card} ⬅️ Measuring psychometric functions
-:link: psy-measuring.md
-Fitting the curve when responses *are* well-behaved.
+:::{card} ⬆️ Extended psychometric functions
+:link: psy-extended.md
+Back to the overview.
 :::
-:::{card} ➡️ Linear scales and equal variance
-:link: psy-scales.md
-Systematic deviations from the psychometric function.
+:::{card} ➡️ Wobbly criteria
+:link: psy-wobbly.md
+What if the criterion itself drifts from trial to trial?
 :::
 ::::
-
-## References
-
-Treisman, M., & Williams, T. C. (1984). A theory of criterion setting with an
-application to sequential dependencies. *Psychological Review, 91*(1), 68.
-
-Vloeberghs, R., Urai, A. E., Desender, K., & Linderman, S. W. (2024). A Bayesian
-Hierarchical Model of Trial-To-Trial Fluctuations in Decision Criterion. *bioRxiv*.

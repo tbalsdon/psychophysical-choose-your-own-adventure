@@ -64,8 +64,9 @@ often practical and produces similar results.
 :link: psy-measuring-trials.md
 Why few trials give a noisy estimate in the first place.
 :::
-:::{card} ➡️ Lapses and wobbly criteria
-:link: psy-lapses.md
-What happens when the observer's responses aren't so well-behaved.
+:::{card} ➡️ Extended psychometric functions
+:link: psy-extended.md
+What happens when the observer's responses aren't so well-behaved (and other
+deviations from the curve).
 :::
 ::::

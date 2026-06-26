@@ -33,8 +33,7 @@ flowchart TD
         pdi[Discrimination]
         pst[Slope and threshold]
         pme[Measuring]
-        pla[Lapses]
-        psc[Scales and variance]
+        pex[Extended functions]
         pdk[Double-knob]
     end
 
@@ -52,14 +51,14 @@ flowchart TD
     i -.-> nv
     nn --> nv
     d -.-> pd
-    pg --> pd --> pdi --> pst --> pme --> pla --> psc --> pdk
+    pg --> pd --> pdi --> pst --> pme --> pex --> pdk
     pst --> s1
     e -.-> dm1
     d -.-> dm2
 
     classDef done fill:#d1495b,stroke:#7a2230,color:#fff;
     classDef todo fill:#eee,stroke:#bbb,color:#888;
-    class a,b,d,e,f,g,h,i,nn,nv,pg,pd,pdi,pst,pme,pla,psc,pdk done;
+    class a,b,d,e,f,g,h,i,nn,nv,pg,pd,pdi,pst,pme,pex,pdk done;
     class s1,dm1,dm2 todo;
 
     click a "../modules/sdt-intro"
@@ -77,8 +76,7 @@ flowchart TD
     click pdi "../modules/psy-discrimination"
     click pst "../modules/psy-slope-threshold-bias"
     click pme "../modules/psy-measuring"
-    click pla "../modules/psy-lapses"
-    click psc "../modules/psy-scales"
+    click pex "../modules/psy-extended"
     click pdk "../modules/psy-double-knob"
 ```
 

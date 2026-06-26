@@ -46,8 +46,12 @@ project:
           children:
             - file: modules/psy-measuring-trials.md
             - file: modules/psy-measuring-fitting.md
-        - file: modules/psy-lapses.md
-        - file: modules/psy-scales.md
+        - file: modules/psy-extended.md
+          children:
+            - file: modules/psy-lapses.md
+            - file: modules/psy-wobbly.md
+            - file: modules/psy-scales-power.md
+            - file: modules/psy-scales-variance.md
         - file: modules/psy-double-knob.md
     - file: sitemap.md
   exclude:

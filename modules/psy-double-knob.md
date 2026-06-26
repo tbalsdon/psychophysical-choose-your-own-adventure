@@ -64,8 +64,8 @@ comparison that results in non-normal distributions.
 ## Where to go next
 
 ::::{grid} 1 1 2 2
-:::{card} ⬅️ Linear scales and equal variance
-:link: psy-scales.md
+:::{card} ⬅️ Unequal variance
+:link: psy-scales-variance.md
 Other ways data depart from the simple psychometric function.
 :::
 :::{card} ⬆️ Psychometrics
