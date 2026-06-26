@@ -6,7 +6,7 @@ short_title: Relation to accuracy
 # Relation to accuracy
 
 :::{note} Where you are
-*Sensitivity* ▸ part 1 of 3 (up to the [Sensitivity](sdt-sensitivity.md) overview).
+*Sensitivity* (up to the [Sensitivity](sdt-sensitivity.md) overview).
 :::
 
 Compare two observers who reach a *similar* proportion correct for very different

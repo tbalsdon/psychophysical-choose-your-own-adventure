@@ -7,7 +7,7 @@ short_title: Forced-choice
 
 :::{note} Where you are
 A subsection of *Signal Detection Theory*, following on from
-[sensitivity](sdt-sensitivity.md) (1e).
+[sensitivity](sdt-sensitivity.md).
 :::
 
 The 2AFC task presents the observer with two "intervals" one signal-present, and
@@ -28,12 +28,12 @@ be equally likely to correspond to each response).
 We'll look at this in two parts:
 
 ::::{grid} 1 1 2 2
-:::{card} 1 · The 2AFC task
+:::{card} The 2AFC task
 :link: sdt-forced-choice-2afc.md
 Visualise the two-interval task and see how its sensitivity relates to the yes/no
 task (and the famous √2 correction).
 :::
-:::{card} 2 · A test against Threshold Theory
+:::{card} A test against Threshold Theory
 :link: sdt-forced-choice-threshold.md
 Comparing 2AFC and yes/no performance is yet another way to tell SDT and Threshold
 Theory apart.

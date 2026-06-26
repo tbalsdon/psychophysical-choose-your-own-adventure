@@ -6,8 +6,8 @@ short_title: The rating-response
 # The rating-response
 
 :::{note} Where you are
-Module **1g** of *Signal Detection Theory*, following on from
-[forced-choice designs](sdt-forced-choice.md) (1f).
+Part of *Signal Detection Theory*, following on from
+[forced-choice designs](sdt-forced-choice.md).
 :::
 
 More evidence for this continuity of experience also came from experiments using a
@@ -44,17 +44,16 @@ responses to signal-absent trials) that have a stronger perceived signal presenc
 than others.
 
 But another task really proved observers have this continuous experience and put
-the nail in the coffin for Threshold Theory (to tempt you into the optional extras
-below).
+the nail in the coffin for Threshold Theory.
 
 ## Where to go next
 
 ::::{grid} 1 1 2 2
-:::{card} ⬅️ Forced-choice designs (1f)
+:::{card} ⬅️ Forced-choice designs
 :link: sdt-forced-choice.md
 Where the 2AFC task and the ROC came from.
 :::
-:::{card} ➡️ The second choice task (1h)
+:::{card} ➡️ The second choice task
 :link: sdt-second-choice.md
 The task that really put the nail in Threshold Theory's coffin.
 :::

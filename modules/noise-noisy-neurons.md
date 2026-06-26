@@ -6,7 +6,7 @@ short_title: Noisy neurons
 # Noisy neurons
 
 :::{note} Where you are
-*What is noise?* ▸ part 1 (up to the [What is noise?](noise.md) overview). This
+*What is noise?* (up to the [What is noise?](noise.md) overview). This
 detour expands on the noise introduced in [the criterion](sdt-criterion.md).
 :::
 

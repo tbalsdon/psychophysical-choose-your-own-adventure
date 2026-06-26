@@ -6,8 +6,8 @@ short_title: Threshold theories
 # Threshold theories
 
 :::{note} Where you are
-Module **1b** of *Signal Detection Theory*, following on from the
-[introduction](sdt-intro.md) (1a). These are the theories SDT was built to replace.
+Part of *Signal Detection Theory*, following on from the
+[introduction](sdt-intro.md). These are the theories SDT was built to replace.
 :::
 
 There are a number of variants of threshold theories (Blackwell, 1953; Luce, 1963;

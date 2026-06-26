@@ -6,7 +6,7 @@ short_title: The 2AFC task
 # The 2AFC task
 
 :::{note} Where you are
-*Forced-choice designs* ▸ part 1 of 2 (up to the
+*Forced-choice designs* (up to the
 [forced-choice](sdt-forced-choice.md) overview).
 :::
 

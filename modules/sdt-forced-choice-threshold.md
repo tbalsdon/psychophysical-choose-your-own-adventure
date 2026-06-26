@@ -6,7 +6,7 @@ short_title: Test vs Threshold Theory
 # A test against Threshold Theory
 
 :::{note} Where you are
-*Forced-choice designs* ▸ part 2 of 2 (up to the
+*Forced-choice designs* (up to the
 [forced-choice](sdt-forced-choice.md) overview).
 :::
 
@@ -48,7 +48,7 @@ experienced differently from another signal-absent trial.
 :link: sdt-forced-choice-2afc.md
 The two-interval task and the √2 correction.
 :::
-:::{card} ➡️ The rating-response (1g)
+:::{card} ➡️ The rating-response
 :link: sdt-rating-response.md
 Getting responses across the whole ROC from a single task.
 :::

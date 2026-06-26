@@ -6,7 +6,7 @@ short_title: Noise variance
 # Noise variance
 
 :::{note} Where you are
-*What is noise?* ▸ part 2 (up to the [What is noise?](noise.md) overview). This
+*What is noise?* (up to the [What is noise?](noise.md) overview). This
 detour expands on the unequal variance discussed in
 [the "assumption" of equal variance](sdt-equal-variance.md).
 :::

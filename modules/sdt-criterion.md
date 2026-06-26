@@ -63,12 +63,12 @@ So where *should* the criterion go? It depends on two things — we'll take them
 at a time:
 
 ::::{grid} 1 1 2 2
-:::{card} 1 · Placement and the distribution means
+:::{card} Placement and the distribution means
 :link: sdt-criterion-means.md
 With equally likely trials, the best criterion sits midway between the noise and
 signal+noise distributions.
 :::
-:::{card} 2 · Base rates: the proportion of signal trials
+:::{card} Base rates: the proportion of signal trials
 :link: sdt-criterion-baserate.md
 When one trial type is more common, the best criterion shifts — and people shift
 with it.

@@ -6,8 +6,8 @@ short_title: The second choice task
 # The second choice task
 
 :::{note} Where you are
-Module **1h** of *Signal Detection Theory*, following on from
-[the rating-response](sdt-rating-response.md) (1g).
+Part of *Signal Detection Theory*, following on from
+[the rating-response](sdt-rating-response.md).
 :::
 
 The second choice task involves a 3AFC or 4AFC (or more) stimulus presentation
@@ -60,11 +60,11 @@ our theory to predict different behaviour over multiple different tasks.
 ## Where to go next
 
 ::::{grid} 1 1 2 2
-:::{card} ⬅️ The rating-response (1g)
+:::{card} ⬅️ The rating-response
 :link: sdt-rating-response.md
 Another piece of evidence for the continuity of experience.
 :::
-:::{card} ➡️ The "assumption" of equal variance (1i)
+:::{card} ➡️ The "assumption" of equal variance
 :link: sdt-equal-variance.md
 Is equal variance really an assumption of SDT? (Spoiler: no.)
 :::

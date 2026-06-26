@@ -6,7 +6,7 @@ short_title: Placement & the means
 # Placement and the distribution means
 
 :::{note} Where you are
-*The criterion* ▸ part 1 of 2 (up to the [criterion](sdt-criterion.md) overview).
+*The criterion* (up to the [criterion](sdt-criterion.md) overview).
 :::
 
 What do we mean by placing the criterion to maximise accuracy?

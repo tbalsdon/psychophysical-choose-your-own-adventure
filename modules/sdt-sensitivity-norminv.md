@@ -6,7 +6,7 @@ short_title: The inverse normal
 # What is the inverse normal?
 
 :::{note} Where you are
-*Sensitivity* ▸ part 2 of 3 (up to the [Sensitivity](sdt-sensitivity.md) overview).
+*Sensitivity* (up to the [Sensitivity](sdt-sensitivity.md) overview).
 :::
 
 To measure sensitivity we need `norminv` — the inverse of the cumulative normal

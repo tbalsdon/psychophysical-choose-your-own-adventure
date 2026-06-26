@@ -6,8 +6,8 @@ short_title: Equal variance
 # The "assumption" of equal variance
 
 :::{note} Where you are
-Module **1i** of *Signal Detection Theory*, following on from
-[the second choice task](sdt-second-choice.md) (1h).
+Part of *Signal Detection Theory*, following on from
+[the second choice task](sdt-second-choice.md).
 :::
 
 Something that really annoys me is the assumption of the assumption of equal
@@ -65,12 +65,12 @@ variance by plotting ROCs.
 ## Where to go next
 
 ::::{grid} 1 1 2 2
-:::{card} ⬅️ The second choice task (1h)
+:::{card} ⬅️ The second choice task
 :link: sdt-second-choice.md
 Another task that tells SDT and Threshold Theory apart.
 :::
 :::{card} ⬆️ Signal Detection Theory
 :link: sdt-intro.md
-Back to the start of the section. (Section 2, Psychometrics, is coming soon.)
+Back to the start of the section. (The Psychometrics section is coming soon.)
 :::
 ::::

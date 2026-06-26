@@ -48,7 +48,7 @@ The aim is NOT to teach you mathematical equations, but they are there for you i
 want to look at them. Wherever you see a notebook embedded in a page, you can edit
 the code and re-run it right in your browser — nothing to install.
 
-## Section 1. Signal Detection Theory (SDT) and Yes/No vs Forced-choice designs
+## Detection theory
 
 Detection theory was designed to explain how an observer detects a weak signal in a
 'noisy' background. It was originally based on 'statistical decision theory'
@@ -60,7 +60,7 @@ important for studying individual differences and social aspects of perception
 experimental settings across many domains of psychological research today. The
 principles of the normative description are foundational, but less popular today.
 
-## a. The question of detection
+## The question of detection
 
 Humans can detect a single photon of light (Tinsley et al., 2016; Hecht, Shlaer, &
 Pirenne, 1942). But often a single photon of light goes undetected. Sometimes many
@@ -96,7 +96,7 @@ First, a set of theories we now think are wrong.
 ## Where to go next
 
 ::::{grid} 1 1 2 2
-:::{card} ➡️ Threshold theories (1b)
+:::{card} ➡️ Threshold theories
 :link: sdt-threshold-theories.md
 The first attempt to explain the variability — and where it falls short.
 :::

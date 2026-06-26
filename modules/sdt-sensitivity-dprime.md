@@ -6,7 +6,7 @@ short_title: d-prime
 # d-prime
 
 :::{note} Where you are
-*Sensitivity* ▸ part 3 of 3 (up to the [Sensitivity](sdt-sensitivity.md) overview).
+*Sensitivity* (up to the [Sensitivity](sdt-sensitivity.md) overview).
 :::
 
 Now we put it together: from each observer's hit-rate and false-alarm-rate, compute
@@ -83,7 +83,7 @@ the bias problem. **Use a forced-choice task!**
 :link: sdt-sensitivity-norminv.md
 The `norminv` function used to compute d-prime.
 :::
-:::{card} ➡️ Forced-choice designs (1f)
+:::{card} ➡️ Forced-choice designs
 :link: sdt-forced-choice.md
 How a forced-choice task sidesteps the bias problem to give a cleaner measure of
 sensitivity.

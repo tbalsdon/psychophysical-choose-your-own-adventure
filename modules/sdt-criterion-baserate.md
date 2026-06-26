@@ -6,7 +6,7 @@ short_title: Base rates
 # Base rates: the proportion of signal trials
 
 :::{note} Where you are
-*The criterion* ▸ part 2 of 2 (up to the [criterion](sdt-criterion.md) overview).
+*The criterion* (up to the [criterion](sdt-criterion.md) overview).
 :::
 
 On the previous page the two trial types were equally likely, and the best
@@ -74,7 +74,7 @@ correct.
 :link: sdt-criterion-means.md
 Where the "mid-way between the means" result came from.
 :::
-:::{card} ➡️ Sensitivity (1e)
+:::{card} ➡️ Sensitivity
 :link: sdt-sensitivity.md
 The *other* factor in proportion correct: how far apart the noise and
 signal+noise distributions are.
