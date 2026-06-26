@@ -41,6 +41,8 @@ Magnitude estimation and the method of adjustment.
 :link: scales-controversy.md
 Power law vs logarithm — and a tidy resolution.
 :::
+:::{card} Maximum likelihood difference scaling
+:link: scales-mlds.md
+Measuring perceptual scales — and how they change with context.
+:::
 ::::
-
-*(More to come: maximum likelihood difference scaling.)*

@@ -68,7 +68,8 @@ For any subjective measure we need to consider how the observer makes their resp
 Where Stevens' power law came from.
 :::
 :::{card} ➡️ Maximum likelihood difference scaling
-Measuring perceptual scales in context. *(Coming soon.)*
+:link: scales-mlds.md
+Measuring perceptual scales in context.
 :::
 ::::
 

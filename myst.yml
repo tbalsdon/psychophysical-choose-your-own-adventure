@@ -58,6 +58,7 @@ project:
         - file: modules/scales-staircase.md
         - file: modules/scales-magnitude.md
         - file: modules/scales-controversy.md
+        - file: modules/scales-mlds.md
     - file: sitemap.md
   exclude:
     - README.md
