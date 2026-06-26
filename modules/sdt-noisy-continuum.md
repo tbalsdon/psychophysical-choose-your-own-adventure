@@ -41,11 +41,17 @@ This concept of noise was introduced by Louis Thurstone in 1927(b), who termed i
 Noise can be attributed to variability in neurons firing. A quick demo:
 
 :::{tip} This code is live — and yours to edit
-Click the {kbd}`🚀` rocket at the top of the page to enable computation, then run
-the cell (or edit the numbers marked `👈` and re-run with
-{kbd}`Shift`+{kbd}`Enter`) — just like pressing "Run Section" in MATLAB. Try it:
-what happens to the population-average distribution as you drop `n_neurons` to 1?
-Or raise the `baseline_rate`?
+This page runs Python **right in your browser**. Click the **power button (⏻)** at
+the top of the page (it says *"Enable computation"*) — the first time, it takes a
+few seconds to load the Python engine. Then a ▶ run button appears on the cell:
+run it, or edit the numbers marked `👈` and re-run with
+{kbd}`Shift`+{kbd}`Enter` — just like pressing "Run Section" in MATLAB.
+
+Try it: what happens to the population-average distribution as you drop
+`n_neurons` to 1? Or raise the `baseline_rate`?
+
+*(The 🚀 rocket in the top corner is something different — it's for launching on an
+external server, and you can ignore it.)*
 :::
 
 ```{code-cell} python
