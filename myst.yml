@@ -15,6 +15,10 @@ project:
         - file: modules/sdt-noisy-continuum.md
         - file: modules/sdt-criterion.md
         - file: modules/sdt-sensitivity.md
+          children:
+            - file: modules/sdt-sensitivity-accuracy.md
+            - file: modules/sdt-sensitivity-norminv.md
+            - file: modules/sdt-sensitivity-dprime.md
     - file: sitemap.md
   exclude:
     - README.md
