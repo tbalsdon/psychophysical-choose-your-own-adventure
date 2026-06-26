@@ -69,8 +69,8 @@ flowchart TD
 
     classDef done fill:#d1495b,stroke:#7a2230,color:#fff;
     classDef todo fill:#eee,stroke:#bbb,color:#888;
-    class a,b,d,e,f,g,h,i,nn,nv,pdec,pst,pme,pex,pdk,sjnd,sst,sask,sctrl,smlds,madapt done;
-    class mext,mmask,dm1,dm2 todo;
+    class a,b,d,e,f,g,h,i,nn,nv,pdec,pst,pme,pex,pdk,sjnd,sst,sask,sctrl,smlds,madapt,mext done;
+    class mmask,dm1,dm2 todo;
 
     click a "../modules/sdt-intro"
     click b "../modules/sdt-threshold-theories"
@@ -93,6 +93,7 @@ flowchart TD
     click sctrl "../modules/scales-controversy"
     click smlds "../modules/scales-mlds"
     click madapt "../modules/man-adaptation"
+    click mext "../modules/man-external-noise"
 ```
 
 :::{note}

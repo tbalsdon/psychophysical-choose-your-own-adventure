@@ -65,6 +65,7 @@ project:
           children:
             - file: modules/man-adapt-orientation.md
             - file: modules/man-adapt-gaze.md
+        - file: modules/man-external-noise.md
     - file: sitemap.md
   exclude:
     - README.md

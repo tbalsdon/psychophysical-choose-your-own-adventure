@@ -20,7 +20,8 @@ the processing.
 The "psychophysicist's microelectrode": reading neural tuning from behaviour.
 :::
 :::{card} External noise
-Adding noise to the stimulus to limit — and probe — perception. *(Coming soon.)*
+:link: man-external-noise.md
+Adding noise to the stimulus to limit — and probe — perception.
 :::
 :::{card} Masking
 Using a second stimulus, and time, to probe processing (and "unconscious"

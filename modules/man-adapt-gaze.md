@@ -63,7 +63,8 @@ adaptation effect.
 Where the repulsion effect came from.
 :::
 :::{card} ➡️ External noise
-Manipulating the *stimulus* noise to probe perception. *(Coming soon.)*
+:link: man-external-noise.md
+Manipulating the *stimulus* noise to probe perception.
 :::
 ::::
 
