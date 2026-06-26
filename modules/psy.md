@@ -46,6 +46,8 @@ How inattention and a jittery criterion make an observer look noisier than they 
 :link: psy-scales.md
 When the data systematically deviate from the psychometric function.
 :::
+:::{card} Double-knob designs
+:link: psy-double-knob.md
+Asking the observer two questions at once — and a surprising result.
+:::
 ::::
-
-*(More to come: double-knob designs.)*

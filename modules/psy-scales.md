@@ -102,7 +102,8 @@ the underlying cause is better tested with other methods.
 Other reasons the curve can mislead.
 :::
 :::{card} ➡️ Double-knob designs
-Asking the observer two questions at once. *(Coming soon.)*
+:link: psy-double-knob.md
+Asking the observer two questions at once.
 :::
 ::::
 

@@ -59,8 +59,8 @@ flowchart TD
 
     classDef done fill:#d1495b,stroke:#7a2230,color:#fff;
     classDef todo fill:#eee,stroke:#bbb,color:#888;
-    class a,b,d,e,f,g,h,i,nn,nv,pg,pd,pdi,pst,pme,pla,psc done;
-    class pdk,s1,dm1,dm2 todo;
+    class a,b,d,e,f,g,h,i,nn,nv,pg,pd,pdi,pst,pme,pla,psc,pdk done;
+    class s1,dm1,dm2 todo;
 
     click a "../modules/sdt-intro"
     click b "../modules/sdt-threshold-theories"
@@ -79,6 +79,7 @@ flowchart TD
     click pme "../modules/psy-measuring"
     click pla "../modules/psy-lapses"
     click psc "../modules/psy-scales"
+    click pdk "../modules/psy-double-knob"
 ```
 
 :::{note}

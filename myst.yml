@@ -48,6 +48,7 @@ project:
             - file: modules/psy-measuring-fitting.md
         - file: modules/psy-lapses.md
         - file: modules/psy-scales.md
+        - file: modules/psy-double-knob.md
     - file: sitemap.md
   exclude:
     - README.md
