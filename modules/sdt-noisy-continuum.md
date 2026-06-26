@@ -50,15 +50,14 @@ Try it: what happens to the population-average distribution as you drop
 `n_neurons` to 1? Or raise the `baseline_rate`?
 :::
 
-```{raw} html
-<iframe
-  src="../../lite/notebooks/index.html?path=sdt-noisy-continuum.ipynb"
-  title="Editable notebook: the neural-noise demo"
-  width="100%" height="760"
-  loading="lazy"
-  style="border: 1px solid #dcdcdc; border-radius: 8px;">
-</iframe>
-```
+:::{iframe} https://tbalsdon.github.io/psychophysical-choose-your-own-adventure/lite/notebooks/index.html?path=sdt-noisy-continuum.ipynb
+:width: 100%
+:label: nb-noisy-continuum
+The neural-noise demo as a live, editable notebook.
+:::
+
+If the notebook is cramped here, you can
+[open it full-screen in a new tab ↗](https://tbalsdon.github.io/psychophysical-choose-your-own-adventure/lite/notebooks/index.html?path=sdt-noisy-continuum.ipynb).
 
 This simple example demonstrates even though individual neuron's firing rates may
 not be described by a gaussian probability distribution, we can reasonably get a
