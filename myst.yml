@@ -33,6 +33,13 @@ project:
       children:
         - file: modules/noise-noisy-neurons.md
         - file: modules/noise-variance.md
+    - file: modules/psy.md
+      children:
+        - file: modules/psy-gabor.md
+        - file: modules/psy-detection.md
+          children:
+            - file: modules/psy-detection-yesno.md
+            - file: modules/psy-detection-2afc.md
     - file: sitemap.md
   exclude:
     - README.md

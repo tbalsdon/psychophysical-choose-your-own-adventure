@@ -28,8 +28,14 @@ flowchart TD
     end
 
     subgraph PSY [Psychometrics]
-        p1[Psychometric function]
-        p2[Slope and threshold]
+        pg[Gabor patch]
+        pd[Detection]
+        pdi[Discrimination]
+        pst[Slope and threshold]
+        pme[Measuring]
+        pla[Lapses]
+        psc[Scales and variance]
+        pdk[Double-knob]
     end
 
     subgraph SCALE [Scales and appearance]
@@ -45,16 +51,16 @@ flowchart TD
     d -.-> nn
     i -.-> nv
     nn --> nv
-    nn -.-> p1
-    g --> p2
-    p2 --> s1
+    d -.-> pd
+    pg --> pd --> pdi --> pst --> pme --> pla --> psc --> pdk
+    pst --> s1
     e -.-> dm1
     d -.-> dm2
 
     classDef done fill:#d1495b,stroke:#7a2230,color:#fff;
     classDef todo fill:#eee,stroke:#bbb,color:#888;
-    class a,b,d,e,f,g,h,i,nn,nv done;
-    class p1,p2,s1,dm1,dm2 todo;
+    class a,b,d,e,f,g,h,i,nn,nv,pg,pd done;
+    class pdi,pst,pme,pla,psc,pdk,s1,dm1,dm2 todo;
 
     click a "../modules/sdt-intro"
     click b "../modules/sdt-threshold-theories"
@@ -66,6 +72,8 @@ flowchart TD
     click i "../modules/sdt-equal-variance"
     click nn "../modules/noise-noisy-neurons"
     click nv "../modules/noise-variance"
+    click pg "../modules/psy-gabor"
+    click pd "../modules/psy-detection"
 ```
 
 :::{note}
