@@ -13,6 +13,7 @@ project:
     - title: Signal Detection Theory
       children:
         - file: modules/sdt-noisy-continuum.md
+        - file: modules/sdt-criterion.md
     - file: sitemap.md
   exclude:
     - README.md

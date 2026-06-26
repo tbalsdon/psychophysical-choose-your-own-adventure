@@ -17,7 +17,7 @@ flowchart TD
     subgraph SDT [1 · Signal Detection Theory]
         b[1b · Threshold theories]:::todo
         c[1c · A noisy continuum]:::done
-        d[1d · The criterion]:::todo
+        d[1d · The criterion]:::done
         e[1e · Sensitivity]:::todo
     end
 
@@ -43,6 +43,7 @@ flowchart TD
     d -. priors & bias .-> dm2
 
     click c "/modules/sdt-noisy-continuum" "Open module 1c"
+    click d "/modules/sdt-criterion" "Open module 1d"
 ```
 
 :::{note}

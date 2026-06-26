@@ -77,8 +77,9 @@ The older view this module argues against: discrete states and an uncontrollable
 threshold. *(Coming soon.)*
 :::
 :::{card} ➡️ The criterion (1d)
+:link: sdt-criterion.md
 If experience lives on a continuum, how does an observer decide when to say
-"yes"? Enter the decision criterion. *(Coming soon.)*
+"yes"? Enter the decision criterion.
 :::
 ::::
 
