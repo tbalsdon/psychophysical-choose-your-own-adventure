@@ -12,15 +12,27 @@ python3 -m venv .venv
 .venv/bin/python -m pip install -r tutorials/requirements.txt
 .venv/bin/python -m ipykernel install --sys-prefix --name python3
 
-# build + serve (figures execute at build time)
+# build the full static site (prose + figures + embedded editable notebooks)
 cd tutorials
 export PATH="$PWD/../.venv/bin:$PATH"   # so the kernel is found during execution
-jupyter-book start --execute            # live dev server with hot reload
-# or, static HTML into _build/html:
-jupyter-book build --execute --html
+jupyter-book build --execute --html                       # 1. prose + figures
+jupyter lite build --contents lite_files --output-dir _build/html/lite  # 2. editable notebooks
+#  ^ step 2 MUST come after step 1 (the MyST build cleans _build/html)
+
+# preview the built site (the embedded notebooks only work in this full build,
+# not in `jupyter-book start`, which doesn't include the JupyterLite app):
+( cd _build/html && python3 -m http.server 8000 )
 ```
 
-Then open <http://localhost:3000>.
+Then open <http://localhost:8000>. For quick prose-only editing with hot reload,
+`jupyter-book start` is fine — just note the embedded notebooks won't appear there.
+
+## Interactive code
+
+Editable, runnable code is delivered as **JupyterLite notebooks** (real Jupyter
+running in the browser via Pyodide), embedded in each module via an `<iframe>`.
+The notebooks live in `lite_files/` (pre-executed so figures show on load) and are
+bundled into the site under `/lite/` at build time.
 
 ## Structure
 

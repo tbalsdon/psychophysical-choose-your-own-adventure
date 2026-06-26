@@ -5,3 +5,7 @@ scipy
 matplotlib
 ipykernel
 jupyter-server
+
+# In-browser editable notebooks (JupyterLite)
+jupyterlite-core
+jupyterlite-pyodide-kernel

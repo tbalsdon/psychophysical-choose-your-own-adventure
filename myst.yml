@@ -5,9 +5,9 @@ project:
   subtitle: An explorable set of interactive tutorials
   authors:
     - name: Tarryn Balsdon
-  # Execute code cells at build time so static figures appear immediately.
-  jupyter:
-    lite: true
+  # Interactive code is delivered via embedded JupyterLite notebooks (see
+  # lite_files/ and the build step that outputs to _build/html/lite), not via
+  # in-page execution — so no project.jupyter config is needed here.
   toc:
     - file: index.md
     - title: Signal Detection Theory
@@ -16,6 +16,7 @@ project:
     - file: sitemap.md
   exclude:
     - README.md
+    - lite_files/**
 site:
   template: book-theme
   options:

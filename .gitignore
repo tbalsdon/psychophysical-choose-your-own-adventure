@@ -1,6 +1,7 @@
 # Build output
 _build/
 node_modules/
+.jupyterlite.doit.db
 
 # Local convenience scripts with machine-specific paths
 serve.sh

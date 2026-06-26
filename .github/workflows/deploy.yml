@@ -51,6 +51,10 @@ jobs:
           BASE_URL: ${{ steps.pages.outputs.base_path }}
         run: jupyter-book build --execute --html
 
+      - name: Build JupyterLite (editable in-browser notebooks)
+        # Must run AFTER the MyST build, which cleans _build/html.
+        run: jupyter lite build --contents lite_files --output-dir _build/html/lite
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
