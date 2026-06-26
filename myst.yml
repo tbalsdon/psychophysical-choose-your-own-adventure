@@ -46,6 +46,8 @@ project:
           children:
             - file: modules/psy-measuring-trials.md
             - file: modules/psy-measuring-fitting.md
+        - file: modules/psy-lapses.md
+        - file: modules/psy-scales.md
     - file: sitemap.md
   exclude:
     - README.md

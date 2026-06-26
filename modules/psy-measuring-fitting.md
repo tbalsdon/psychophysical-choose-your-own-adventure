@@ -65,6 +65,7 @@ often practical and produces similar results.
 Why few trials give a noisy estimate in the first place.
 :::
 :::{card} ➡️ Lapses and wobbly criteria
-What happens when the observer's responses aren't so well-behaved. *(Coming soon.)*
+:link: psy-lapses.md
+What happens when the observer's responses aren't so well-behaved.
 :::
 ::::

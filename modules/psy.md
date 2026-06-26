@@ -38,7 +38,14 @@ What the shape and position of the curve tell us about noise and bias.
 :link: psy-measuring.md
 With only a handful of trials, how do we recover the curve from the data?
 :::
+:::{card} Lapses and wobbly criteria
+:link: psy-lapses.md
+How inattention and a jittery criterion make an observer look noisier than they are.
+:::
+:::{card} Linear scales and equal variance
+:link: psy-scales.md
+When the data systematically deviate from the psychometric function.
+:::
 ::::
 
-*(More to come: lapses and wobbly criteria; linear scales and equal variance; and
-double-knob designs.)*
+*(More to come: double-knob designs.)*
