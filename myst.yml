@@ -10,7 +10,7 @@ project:
   # in-page execution — so no project.jupyter config is needed here.
   toc:
     - file: index.md
-    - title: Signal Detection Theory
+    - file: modules/sdt-intro.md
       children:
         - file: modules/sdt-noisy-continuum.md
         - file: modules/sdt-criterion.md

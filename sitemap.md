@@ -15,6 +15,7 @@ flowchart TD
     classDef todo fill:#eee,stroke:#bbb,color:#888;
 
     subgraph SDT [1 · Signal Detection Theory]
+        a[Intro · the question of detection]:::done
         b[1b · Threshold theories]:::todo
         c[1c · A noisy continuum]:::done
         d[1d · The criterion]:::done
@@ -37,13 +38,15 @@ flowchart TD
         dm2[Bayesian inference]:::todo
     end
 
-    b --> c --> d --> e --> f --> g
+    a --> b --> c --> d --> e --> f --> g
+    a -.-> c
     c -. noise --> p1
     g --> p2
     p2 --> s1
     e -. evidence accumulation .-> dm1
     d -. priors & bias .-> dm2
 
+    click a "/modules/sdt-intro" "Open the Signal Detection Theory introduction"
     click c "/modules/sdt-noisy-continuum" "Open module 1c"
     click d "/modules/sdt-criterion" "Open module 1d"
     click e "/modules/sdt-sensitivity" "Open module 1e"
