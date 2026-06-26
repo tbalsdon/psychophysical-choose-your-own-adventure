@@ -55,8 +55,8 @@ below).
 Where the 2AFC task and the ROC came from.
 :::
 :::{card} ➡️ The second choice task (1h)
-Optional extra: the task that really put the nail in Threshold Theory's coffin.
-*(Coming soon.)*
+:link: sdt-second-choice.md
+The task that really put the nail in Threshold Theory's coffin.
 :::
 ::::
 

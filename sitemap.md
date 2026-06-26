@@ -22,6 +22,8 @@ flowchart TD
         e[1e · Sensitivity]:::done
         f[1f · Forced-choice]:::done
         g[1g · Rating-response]:::done
+        h[1h · Second choice task]:::done
+        i[1i · Equal variance]:::done
     end
 
     subgraph PSY [2 · Psychometrics]
@@ -38,7 +40,7 @@ flowchart TD
         dm2[Bayesian inference]:::todo
     end
 
-    a --> b --> c --> d --> e --> f --> g
+    a --> b --> c --> d --> e --> f --> g --> h --> i
     c -. noise --> p1
     g --> p2
     p2 --> s1
@@ -52,6 +54,8 @@ flowchart TD
     click e "/modules/sdt-sensitivity" "Open module 1e"
     click f "/modules/sdt-forced-choice" "Open module 1f"
     click g "/modules/sdt-rating-response" "Open module 1g"
+    click h "/modules/sdt-second-choice" "Open module 1h"
+    click i "/modules/sdt-equal-variance" "Open module 1i"
 ```
 
 :::{note}

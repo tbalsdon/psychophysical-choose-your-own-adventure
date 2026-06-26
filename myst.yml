@@ -28,6 +28,8 @@ project:
             - file: modules/sdt-forced-choice-2afc.md
             - file: modules/sdt-forced-choice-threshold.md
         - file: modules/sdt-rating-response.md
+        - file: modules/sdt-second-choice.md
+        - file: modules/sdt-equal-variance.md
     - file: sitemap.md
   exclude:
     - README.md
