@@ -1,0 +1,7 @@
+# Build the tutorial site with:  jupyter-book start   (or:  jupyter-book build --html)
+jupyter-book>=2.1
+numpy
+scipy
+matplotlib
+ipykernel
+jupyter-server

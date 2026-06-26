@@ -1,0 +1,14 @@
+# Build output
+_build/
+node_modules/
+
+# Local convenience scripts with machine-specific paths
+serve.sh
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

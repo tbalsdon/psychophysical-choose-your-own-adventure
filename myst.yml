@@ -1,0 +1,29 @@
+version: 1
+project:
+  id: psychophysics-tutorials
+  title: Psychophysics & Decision-Making
+  subtitle: An explorable set of interactive tutorials
+  authors:
+    - name: Tarryn Balsdon
+  # Execute code cells at build time so static figures appear immediately.
+  jupyter:
+    lite: true
+  toc:
+    - file: index.md
+    - title: Signal Detection Theory
+      children:
+        - file: modules/sdt-noisy-continuum.md
+    - file: sitemap.md
+  exclude:
+    - README.md
+site:
+  template: book-theme
+  options:
+    logo_text: Psychophysics
+    hide_outline: false
+    folders: true
+  nav:
+    - title: Home
+      url: /index
+    - title: Module map
+      url: /sitemap
