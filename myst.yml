@@ -14,6 +14,9 @@ project:
       children:
         - file: modules/sdt-noisy-continuum.md
         - file: modules/sdt-criterion.md
+          children:
+            - file: modules/sdt-criterion-means.md
+            - file: modules/sdt-criterion-baserate.md
         - file: modules/sdt-sensitivity.md
           children:
             - file: modules/sdt-sensitivity-accuracy.md
