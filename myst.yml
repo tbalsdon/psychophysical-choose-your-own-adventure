@@ -42,6 +42,10 @@ project:
             - file: modules/psy-detection-2afc.md
         - file: modules/psy-discrimination.md
         - file: modules/psy-slope-threshold-bias.md
+        - file: modules/psy-measuring.md
+          children:
+            - file: modules/psy-measuring-trials.md
+            - file: modules/psy-measuring-fitting.md
     - file: sitemap.md
   exclude:
     - README.md

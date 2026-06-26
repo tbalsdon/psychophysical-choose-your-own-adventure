@@ -74,7 +74,8 @@ affected by bias, especially in subjective tasks.
 The judgement task whose curve we're now dissecting.
 :::
 :::{card} ➡️ Measuring psychometric functions
-With real (few) trials, how do we *fit* the curve? *(Coming soon.)*
+:link: psy-measuring.md
+With real (few) trials, how do we *fit* the curve?
 :::
 ::::
 

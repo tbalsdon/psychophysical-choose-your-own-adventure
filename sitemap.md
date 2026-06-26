@@ -59,8 +59,8 @@ flowchart TD
 
     classDef done fill:#d1495b,stroke:#7a2230,color:#fff;
     classDef todo fill:#eee,stroke:#bbb,color:#888;
-    class a,b,d,e,f,g,h,i,nn,nv,pg,pd,pdi,pst done;
-    class pme,pla,psc,pdk,s1,dm1,dm2 todo;
+    class a,b,d,e,f,g,h,i,nn,nv,pg,pd,pdi,pst,pme done;
+    class pla,psc,pdk,s1,dm1,dm2 todo;
 
     click a "../modules/sdt-intro"
     click b "../modules/sdt-threshold-theories"
@@ -76,6 +76,7 @@ flowchart TD
     click pd "../modules/psy-detection"
     click pdi "../modules/psy-discrimination"
     click pst "../modules/psy-slope-threshold-bias"
+    click pme "../modules/psy-measuring"
 ```
 
 :::{note}

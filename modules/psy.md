@@ -34,7 +34,11 @@ The same principles applied to judging a property of a clearly visible stimulus.
 :link: psy-slope-threshold-bias.md
 What the shape and position of the curve tell us about noise and bias.
 :::
+:::{card} Measuring psychometric functions
+:link: psy-measuring.md
+With only a handful of trials, how do we recover the curve from the data?
+:::
 ::::
 
-*(More to come: measuring and fitting psychometric functions; lapses and wobbly
-criteria; linear scales and equal variance; and double-knob designs.)*
+*(More to come: lapses and wobbly criteria; linear scales and equal variance; and
+double-knob designs.)*
