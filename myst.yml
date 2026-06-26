@@ -13,7 +13,6 @@ project:
     - file: modules/sdt-intro.md
       children:
         - file: modules/sdt-threshold-theories.md
-        - file: modules/sdt-noisy-continuum.md
         - file: modules/sdt-criterion.md
           children:
             - file: modules/sdt-criterion-means.md
@@ -30,6 +29,10 @@ project:
         - file: modules/sdt-rating-response.md
         - file: modules/sdt-second-choice.md
         - file: modules/sdt-equal-variance.md
+    - file: modules/noise.md
+      children:
+        - file: modules/noise-noisy-neurons.md
+        - file: modules/noise-variance.md
     - file: sitemap.md
   exclude:
     - README.md

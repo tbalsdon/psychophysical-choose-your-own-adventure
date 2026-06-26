@@ -100,9 +100,10 @@ First, a set of theories we now think are wrong.
 :link: sdt-threshold-theories.md
 The first attempt to explain the variability — and where it falls short.
 :::
-:::{card} ➡️ A noisy continuum (1c)
-:link: sdt-noisy-continuum.md
-Signal detection theory's answer: a continuous, noisy internal experience.
+:::{card} ➡️ The criterion
+:link: sdt-criterion.md
+Signal detection theory's answer: a continuous, noisy internal experience, and a
+criterion the observer controls.
 :::
 ::::
 

@@ -77,9 +77,10 @@ theories from signal detection theory.
 :link: sdt-intro.md
 Back to the introduction and the question of detection.
 :::
-:::{card} ➡️ A noisy continuum (1c)
-:link: sdt-noisy-continuum.md
-SDT's alternative: drop the discrete states and embrace a noisy continuum.
+:::{card} ➡️ The criterion
+:link: sdt-criterion.md
+SDT's alternative: drop the discrete states, embrace a noisy continuum, and let the
+observer set a criterion.
 :::
 ::::
 

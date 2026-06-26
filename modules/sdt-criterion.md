@@ -7,15 +7,45 @@ short_title: The criterion
 
 :::{note} Where you are
 A subsection of *Signal Detection Theory*, following on from
-[a noisy continuum](sdt-noisy-continuum.md) (1c).
+[threshold theories](sdt-threshold-theories.md).
 :::
 
-On any trial, the observer experiences something that can be described on a
-continuous scale, with greater values being more like 'signal-present' and smaller
-values more like 'signal-absent'. Each trial they have to decide if their
-experience should be reported as arising from a signal actually being present in
-the external world. They do this by setting a 'criterion' where anything greater
-than this criterion is reported as 'yes' a signal was present.
+The first major conceptual advance of SDT is that it gets rid of the presumption
+of 'discrete states'.
+
+Threshold theories propose that anything below threshold is simply 'absent'. A
+signal-present trial below threshold is experienced as just as absent as a
+signal-absent trial.
+
+Under SDT everything has some value on a continuous scale. Some signal-absent
+trials are psychologically experienced as 'more absent' than other signal-absent
+trials. AND a signal-absent trial can be experienced as 'more present' than a
+signal-present trial.
+
+It does this by attributing the variability to a baseline level of 'noise'. This
+noise is assumed to be gaussian distributed, meaning there is a variable strength
+on a continuous scale corresponding to the experience of a signal-absent trial.
+On signal-present trials, the strength of the signal is added to this background
+of noise, such that it also has a variable strength on the same continuous scale.
+The distribution describing signal-present trials has a greater mean (and the same
+standard deviation).
+
+This concept of noise was introduced by Louis Thurstone in 1927(b), who termed it
+'discriminal dispersion', and it remains a fundamental concept today.
+
+:::{seealso} Curious what this "noise" actually is?
+Take a detour into [**What is noise?**](noise.md) — where the noise comes from
+([Noisy neurons](noise-noisy-neurons.md)) and why its variance need not be the same
+for signal and noise ([Noise variance](noise-variance.md)). Then come back here.
+:::
+
+Now, the second conceptual advance. On any trial, the observer experiences
+something that can be described on a continuous scale, with greater values being
+more like 'signal-present' and smaller values more like 'signal-absent'. Each trial
+they have to decide if their experience should be reported as arising from a signal
+actually being present in the external world. They do this by setting a 'criterion'
+where anything greater than this criterion is reported as 'yes' a signal was
+present.
 
 This is the second major conceptual advance of SDT: the response is determined by a
 criterion/threshold that can be under the observer's strategic control.
@@ -48,3 +78,6 @@ with it.
 ## References
 
 Helmholtz, H. von (1867). *Handbuch der physiologischen Optik*. Leipzig: Voss.
+
+Thurstone, L. L. (1927b). A law of comparative judgments. *Psychological Review,
+34*, 273–286.
