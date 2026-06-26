@@ -79,9 +79,9 @@ different tasks.
 ## Where to go next
 
 ::::{grid} 1 1 2 2
-:::{card} ⬅️ The psychometric function for detection
-:link: psy-detection.md
-Where the cumulative-gaussian psychometric function came from.
+:::{card} ⬅️ Detection: 2AFC
+:link: psy-detection-2afc.md
+Where the full cumulative-gaussian psychometric function came from.
 :::
 :::{card} ➡️ Slope, threshold, and bias
 :link: psy-slope-threshold-bias.md

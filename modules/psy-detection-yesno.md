@@ -6,8 +6,21 @@ short_title: Detection (yes/no)
 # Detection: the yes/no task
 
 :::{note} Where you are
-Part of [The psychometric function for detection](psy-detection.md).
+Part of [Types of decisions](psy-decisions.md).
 :::
+
+In [Signal Detection Theory](sdt-intro.md) we examined the simple task of detecting
+a signal. The signal is added on a background of noise, making it difficult to judge
+whether our psychological experience resulted from the presence of a signal or noise
+alone. In a yes/no task one must set a criterion: if the internal value of our
+psychological experience falls above this criterion, one says that a signal was
+present.
+
+With the [Gabor patch](psy.md), we can manipulate the signal strength using the
+contrast. At 0 contrast the Gabor is absent; as we increase the contrast we increase
+the signal strength. In an experiment we can present the observer with different
+signal strengths and see how they respond — and the result is a **psychometric
+function**.
 
 Let's simulate and plot a yes/no detection task. The contrast of the Gabor varies
 from trial to trial; the observer says "yes" whenever their internal value exceeds
@@ -49,8 +62,8 @@ a **2AFC** design (with carefully chosen stimulus values).
 ## Where to go next
 
 ::::{grid} 1 1 2 2
-:::{card} ⬆️ The psychometric function for detection
-:link: psy-detection.md
+:::{card} ⬆️ Types of decisions
+:link: psy-decisions.md
 Back to the overview.
 :::
 :::{card} ➡️ Detection: 2AFC

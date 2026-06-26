@@ -6,7 +6,7 @@ short_title: Detection (2AFC)
 # Detection: the 2AFC task
 
 :::{note} Where you are
-Part of [The psychometric function for detection](psy-detection.md).
+Part of [Types of decisions](psy-decisions.md).
 :::
 
 In a 2AFC task, we present two intervals, one containing the signal, and the
@@ -74,6 +74,6 @@ Where the criterion shifted the curve up and down.
 :::
 :::{card} ➡️ Discrimination and identification
 :link: psy-discrimination.md
-The same principles applied to judging a stimulus property. *(Coming soon.)*
+The same principles applied to judging a stimulus property.
 :::
 ::::
