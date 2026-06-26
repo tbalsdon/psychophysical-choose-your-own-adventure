@@ -6,7 +6,7 @@ short_title: Detection
 # The psychometric function for detection
 
 :::{note} Where you are
-Part of [Psychometrics](psy.md).
+Part of [Types of decisions](psy-decisions.md).
 :::
 
 In [Signal Detection Theory](sdt-intro.md) we examined the simple task of detecting
@@ -16,7 +16,7 @@ alone. In a yes/no task one must set a criterion: if the internal value of our
 psychological experience falls above this criterion, one says that a signal was
 present.
 
-With the [Gabor patch](psy-gabor.md), we can manipulate the signal strength using
+With the [Gabor patch](psy.md), we can manipulate the signal strength using
 the contrast. At 0 contrast the Gabor is absent; as we increase the contrast we
 increase the signal strength. In an experiment we can present the observer with
 different signal strengths and see how they respond — and the result is a

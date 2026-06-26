@@ -6,7 +6,7 @@ short_title: Discrimination & identification
 # The psychometric function for discrimination and identification
 
 :::{note} Where you are
-Part of [Psychometrics](psy.md).
+Part of [Types of decisions](psy-decisions.md).
 :::
 
 The same principles can be applied to the tasks of discrimination and

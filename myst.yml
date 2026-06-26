@@ -35,12 +35,13 @@ project:
         - file: modules/noise-variance.md
     - file: modules/psy.md
       children:
-        - file: modules/psy-gabor.md
-        - file: modules/psy-detection.md
+        - file: modules/psy-decisions.md
           children:
-            - file: modules/psy-detection-yesno.md
-            - file: modules/psy-detection-2afc.md
-        - file: modules/psy-discrimination.md
+            - file: modules/psy-detection.md
+              children:
+                - file: modules/psy-detection-yesno.md
+                - file: modules/psy-detection-2afc.md
+            - file: modules/psy-discrimination.md
         - file: modules/psy-slope-threshold-bias.md
         - file: modules/psy-measuring.md
           children:

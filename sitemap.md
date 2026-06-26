@@ -28,9 +28,7 @@ flowchart TD
     end
 
     subgraph PSY [Psychometrics]
-        pg[Gabor patch]
-        pd[Detection]
-        pdi[Discrimination]
+        pdec[Types of decisions]
         pst[Slope and threshold]
         pme[Measuring]
         pex[Extended functions]
@@ -50,15 +48,15 @@ flowchart TD
     d -.-> nn
     i -.-> nv
     nn --> nv
-    d -.-> pd
-    pg --> pd --> pdi --> pst --> pme --> pex --> pdk
+    d -.-> pdec
+    pdec --> pst --> pme --> pex --> pdk
     pst --> s1
     e -.-> dm1
     d -.-> dm2
 
     classDef done fill:#d1495b,stroke:#7a2230,color:#fff;
     classDef todo fill:#eee,stroke:#bbb,color:#888;
-    class a,b,d,e,f,g,h,i,nn,nv,pg,pd,pdi,pst,pme,pex,pdk done;
+    class a,b,d,e,f,g,h,i,nn,nv,pdec,pst,pme,pex,pdk done;
     class s1,dm1,dm2 todo;
 
     click a "../modules/sdt-intro"
@@ -71,9 +69,7 @@ flowchart TD
     click i "../modules/sdt-equal-variance"
     click nn "../modules/noise-noisy-neurons"
     click nv "../modules/noise-variance"
-    click pg "../modules/psy-gabor"
-    click pd "../modules/psy-detection"
-    click pdi "../modules/psy-discrimination"
+    click pdec "../modules/psy-decisions"
     click pst "../modules/psy-slope-threshold-bias"
     click pme "../modules/psy-measuring"
     click pex "../modules/psy-extended"
