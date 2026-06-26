@@ -59,6 +59,12 @@ project:
         - file: modules/scales-magnitude.md
         - file: modules/scales-controversy.md
         - file: modules/scales-mlds.md
+    - file: modules/man.md
+      children:
+        - file: modules/man-adaptation.md
+          children:
+            - file: modules/man-adapt-orientation.md
+            - file: modules/man-adapt-gaze.md
     - file: sitemap.md
   exclude:
     - README.md

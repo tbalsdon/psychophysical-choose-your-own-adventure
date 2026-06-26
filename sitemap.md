@@ -43,6 +43,12 @@ flowchart TD
         smlds[MLDS]
     end
 
+    subgraph MAN [Methods of manipulation]
+        madapt[Adaptation]
+        mext[External noise]
+        mmask[Masking]
+    end
+
     subgraph DM [Decision models]
         dm1[Diffusion models]
         dm2[Bayesian inference]
@@ -56,13 +62,15 @@ flowchart TD
     pdec --> pst --> pme --> pex --> pdk
     pst --> sjnd
     sjnd --> sst --> sask --> sctrl --> smlds
+    nn -.-> madapt
+    madapt --> mext --> mmask
     e -.-> dm1
     d -.-> dm2
 
     classDef done fill:#d1495b,stroke:#7a2230,color:#fff;
     classDef todo fill:#eee,stroke:#bbb,color:#888;
-    class a,b,d,e,f,g,h,i,nn,nv,pdec,pst,pme,pex,pdk,sjnd,sst,sask,sctrl,smlds done;
-    class dm1,dm2 todo;
+    class a,b,d,e,f,g,h,i,nn,nv,pdec,pst,pme,pex,pdk,sjnd,sst,sask,sctrl,smlds,madapt done;
+    class mext,mmask,dm1,dm2 todo;
 
     click a "../modules/sdt-intro"
     click b "../modules/sdt-threshold-theories"
@@ -84,6 +92,7 @@ flowchart TD
     click sask "../modules/scales-magnitude"
     click sctrl "../modules/scales-controversy"
     click smlds "../modules/scales-mlds"
+    click madapt "../modules/man-adaptation"
 ```
 
 :::{note}
