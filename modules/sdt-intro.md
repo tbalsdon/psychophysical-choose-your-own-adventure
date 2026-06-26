@@ -97,8 +97,8 @@ First, a set of theories we now think are wrong.
 
 ::::{grid} 1 1 2 2
 :::{card} ➡️ Threshold theories (1b)
+:link: sdt-threshold-theories.md
 The first attempt to explain the variability — and where it falls short.
-*(Coming soon.)*
 :::
 :::{card} ➡️ A noisy continuum (1c)
 :link: sdt-noisy-continuum.md

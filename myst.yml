@@ -12,6 +12,7 @@ project:
     - file: index.md
     - file: modules/sdt-intro.md
       children:
+        - file: modules/sdt-threshold-theories.md
         - file: modules/sdt-noisy-continuum.md
         - file: modules/sdt-criterion.md
           children:

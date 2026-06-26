@@ -9,8 +9,9 @@ kernelspec:
 # Signal detection theory: a noisy continuum
 
 :::{note} Where you are
-Module **1c** of *Signal Detection Theory* — follows on from threshold theories
-(1b) and leads into [the criterion](#whats-next) (1d).
+Module **1c** of *Signal Detection Theory* — follows on from
+[threshold theories](sdt-threshold-theories.md) (1b) and leads into
+[the criterion](sdt-criterion.md) (1d).
 :::
 
 The first major conceptual advance of SDT is that it gets rid of the presumption
@@ -73,8 +74,9 @@ what happens on signal-absent trials.
 
 ::::{grid} 1 1 2 2
 :::{card} ⬅️ Threshold theories (1b)
+:link: sdt-threshold-theories.md
 The older view this module argues against: discrete states and an uncontrollable
-threshold. *(Coming soon.)*
+threshold.
 :::
 :::{card} ➡️ The criterion (1d)
 :link: sdt-criterion.md
