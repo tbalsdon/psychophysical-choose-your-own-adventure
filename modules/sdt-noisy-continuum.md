@@ -55,15 +55,12 @@ external server, and you can ignore it.)*
 :::
 
 ```{code-cell} python
-:tags: [hide-input]
-# --- Plot styling (the Python version of makeMyPlotPretty) -------------------
 import numpy as np
 import matplotlib.pyplot as plt
 
+# A few plot-styling defaults (the Python version of makeMyPlotPretty)
 plt.rcParams.update({
     "figure.dpi": 110,
-    "figure.facecolor": "white",
-    "axes.facecolor": "white",
     "font.size": 12,
     "axes.titlesize": 13,
     "axes.titleweight": "semibold",
@@ -71,13 +68,10 @@ plt.rcParams.update({
     "axes.spines.top": False,
     "axes.spines.right": False,
     "axes.grid": False,
-    "lines.linewidth": 2.2,
     "legend.frameon": False,
 })
 BLUE = "#4c6ef5"
-```
 
-```{code-cell} python
 # ---- Edit these three numbers, then re-run the cell -------------------------
 baseline_rate = 2       # 👈 spikes per second on a signal-absent trial
 n_neurons     = 100     # 👈 how many neurons we average over
