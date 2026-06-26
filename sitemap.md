@@ -11,59 +11,61 @@ Modules in **colour** are finished; greyed-out modules are planned.
 
 ```{mermaid}
 flowchart TD
-    classDef done fill:#d1495b,stroke:#7a2230,color:#fff;
-    classDef todo fill:#eee,stroke:#bbb,color:#888;
-
     subgraph SDT [Signal Detection Theory]
-        a["Intro: the question of detection"]:::done
-        b[Threshold theories]:::done
-        d[The criterion]:::done
-        e[Sensitivity]:::done
-        f[Forced-choice]:::done
-        g[Rating-response]:::done
-        h[Second choice task]:::done
-        i[Equal variance]:::done
+        a[Introduction]
+        b[Threshold theories]
+        d[The criterion]
+        e[Sensitivity]
+        f[Forced-choice]
+        g[Rating-response]
+        h[Second choice task]
+        i[Equal variance]
     end
 
-    subgraph NOISE ["What is noise?"]
-        nn[Noisy neurons]:::done
-        nv[Noise variance]:::done
+    subgraph NOISE [What is noise]
+        nn[Noisy neurons]
+        nv[Noise variance]
     end
 
     subgraph PSY [Psychometrics]
-        p1[Psychometric function]:::todo
-        p2[Slope, threshold, bias]:::todo
+        p1[Psychometric function]
+        p2[Slope and threshold]
     end
 
-    subgraph SCALE ["Scales &amp; appearance"]
-        s1[The JND]:::todo
+    subgraph SCALE [Scales and appearance]
+        s1[The JND]
     end
 
     subgraph DM [Decision models]
-        dm1[Diffusion models]:::todo
-        dm2[Bayesian inference]:::todo
+        dm1[Diffusion models]
+        dm2[Bayesian inference]
     end
 
     a --> b --> d --> e --> f --> g --> h --> i
-    d -. what is noise .-> nn
-    i -. why unequal .-> nv
+    d -.-> nn
+    i -.-> nv
     nn --> nv
-    nn -. noise .-> p1
+    nn -.-> p1
     g --> p2
     p2 --> s1
-    e -. evidence accumulation .-> dm1
-    d -. priors and bias .-> dm2
+    e -.-> dm1
+    d -.-> dm2
 
-    click a "/modules/sdt-intro" "Open the Signal Detection Theory introduction"
-    click b "/modules/sdt-threshold-theories" "Open Threshold theories"
-    click d "/modules/sdt-criterion" "Open The criterion"
-    click e "/modules/sdt-sensitivity" "Open Sensitivity"
-    click f "/modules/sdt-forced-choice" "Open Forced-choice"
-    click g "/modules/sdt-rating-response" "Open Rating-response"
-    click h "/modules/sdt-second-choice" "Open Second choice task"
-    click i "/modules/sdt-equal-variance" "Open Equal variance"
-    click nn "/modules/noise-noisy-neurons" "Open Noisy neurons"
-    click nv "/modules/noise-variance" "Open Noise variance"
+    classDef done fill:#d1495b,stroke:#7a2230,color:#fff;
+    classDef todo fill:#eee,stroke:#bbb,color:#888;
+    class a,b,d,e,f,g,h,i,nn,nv done;
+    class p1,p2,s1,dm1,dm2 todo;
+
+    click a "/modules/sdt-intro"
+    click b "/modules/sdt-threshold-theories"
+    click d "/modules/sdt-criterion"
+    click e "/modules/sdt-sensitivity"
+    click f "/modules/sdt-forced-choice"
+    click g "/modules/sdt-rating-response"
+    click h "/modules/sdt-second-choice"
+    click i "/modules/sdt-equal-variance"
+    click nn "/modules/noise-noisy-neurons"
+    click nv "/modules/noise-variance"
 ```
 
 :::{note}
