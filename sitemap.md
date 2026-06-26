@@ -36,7 +36,11 @@ flowchart TD
     end
 
     subgraph SCALE [Scales and appearance]
-        s1[The JND]
+        sjnd[The JND]
+        sst[Measuring JNDs]
+        sask[Asking what it is like]
+        sctrl[The big controversy]
+        smlds[MLDS]
     end
 
     subgraph DM [Decision models]
@@ -50,14 +54,15 @@ flowchart TD
     nn --> nv
     d -.-> pdec
     pdec --> pst --> pme --> pex --> pdk
-    pst --> s1
+    pst --> sjnd
+    sjnd --> sst --> sask --> sctrl --> smlds
     e -.-> dm1
     d -.-> dm2
 
     classDef done fill:#d1495b,stroke:#7a2230,color:#fff;
     classDef todo fill:#eee,stroke:#bbb,color:#888;
-    class a,b,d,e,f,g,h,i,nn,nv,pdec,pst,pme,pex,pdk done;
-    class s1,dm1,dm2 todo;
+    class a,b,d,e,f,g,h,i,nn,nv,pdec,pst,pme,pex,pdk,sjnd,sst done;
+    class sask,sctrl,smlds,dm1,dm2 todo;
 
     click a "../modules/sdt-intro"
     click b "../modules/sdt-threshold-theories"
@@ -74,6 +79,8 @@ flowchart TD
     click pme "../modules/psy-measuring"
     click pex "../modules/psy-extended"
     click pdk "../modules/psy-double-knob"
+    click sjnd "../modules/scales-jnd"
+    click sst "../modules/scales-staircase"
 ```
 
 :::{note}

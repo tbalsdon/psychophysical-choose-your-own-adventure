@@ -52,6 +52,10 @@ project:
             - file: modules/psy-scales-power.md
             - file: modules/psy-scales-variance.md
         - file: modules/psy-double-knob.md
+    - file: modules/scales.md
+      children:
+        - file: modules/scales-jnd.md
+        - file: modules/scales-staircase.md
     - file: sitemap.md
   exclude:
     - README.md
