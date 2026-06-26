@@ -15,7 +15,7 @@ flowchart TD
     classDef todo fill:#eee,stroke:#bbb,color:#888;
 
     subgraph SDT [Signal Detection Theory]
-        a[Intro · the question of detection]:::done
+        a["Intro: the question of detection"]:::done
         b[Threshold theories]:::done
         d[The criterion]:::done
         e[Sensitivity]:::done
@@ -25,7 +25,7 @@ flowchart TD
         i[Equal variance]:::done
     end
 
-    subgraph NOISE [What is noise?]
+    subgraph NOISE ["What is noise?"]
         nn[Noisy neurons]:::done
         nv[Noise variance]:::done
     end
@@ -35,7 +35,7 @@ flowchart TD
         p2[Slope, threshold, bias]:::todo
     end
 
-    subgraph SCALE [Scales & appearance]
+    subgraph SCALE ["Scales &amp; appearance"]
         s1[The JND]:::todo
     end
 
@@ -45,14 +45,14 @@ flowchart TD
     end
 
     a --> b --> d --> e --> f --> g --> h --> i
-    d -. what is noise? .-> nn
-    i -. why unequal? .-> nv
+    d -. what is noise .-> nn
+    i -. why unequal .-> nv
     nn --> nv
-    nn -. noise --> p1
+    nn -. noise .-> p1
     g --> p2
     p2 --> s1
     e -. evidence accumulation .-> dm1
-    d -. priors & bias .-> dm2
+    d -. priors and bias .-> dm2
 
     click a "/modules/sdt-intro" "Open the Signal Detection Theory introduction"
     click b "/modules/sdt-threshold-theories" "Open Threshold theories"
