@@ -1,0 +1,18 @@
+/* ---------------------------------------------------------------------------
+   Embedded JupyterLite notebooks
+   ---------------------------------------------------------------------------
+   The {iframe} directive wraps the iframe in a div (class "relative inline-block")
+   with an inline `padding-bottom: 60%`, which fixes the frame to a short aspect
+   ratio — too short for a notebook. We override that wrapper to give a tall,
+   mostly viewport-sized frame.
+
+   We select the wrapper by the notebook iframe it contains (`:has()`), so this
+   one rule styles every embedded JupyterLite notebook without needing per-frame
+   labels. (`!important` is required to beat the directive's inline padding.)
+--------------------------------------------------------------------------- */
+.relative:has(> iframe[src*="lite/notebooks"]) {
+  padding-bottom: 0 !important;
+  width: 100% !important;
+  height: min(85vh, 900px) !important;
+  min-height: 640px !important;
+}

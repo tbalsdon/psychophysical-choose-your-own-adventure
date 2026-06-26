@@ -23,6 +23,7 @@ site:
     logo_text: Psychophysics
     hide_outline: false
     folders: true
+    style: custom.css
   nav:
     - title: Home
       url: /index
