@@ -14,6 +14,7 @@ project:
       children:
         - file: modules/sdt-noisy-continuum.md
         - file: modules/sdt-criterion.md
+        - file: modules/sdt-sensitivity.md
     - file: sitemap.md
   exclude:
     - README.md

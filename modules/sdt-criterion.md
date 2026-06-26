@@ -106,8 +106,9 @@ correct.
 Where the continuous "internal value" and Gaussian noise came from.
 :::
 :::{card} ➡️ Sensitivity (1e)
+:link: sdt-sensitivity.md
 The *other* factor in proportion correct: how far apart the noise and
-signal+noise distributions are. *(Coming soon.)*
+signal+noise distributions are.
 :::
 ::::
 

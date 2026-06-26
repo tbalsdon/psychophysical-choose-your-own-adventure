@@ -18,7 +18,7 @@ flowchart TD
         b[1b · Threshold theories]:::todo
         c[1c · A noisy continuum]:::done
         d[1d · The criterion]:::done
-        e[1e · Sensitivity]:::todo
+        e[1e · Sensitivity]:::done
     end
 
     subgraph PSY [2 · Psychometrics]
@@ -44,6 +44,7 @@ flowchart TD
 
     click c "/modules/sdt-noisy-continuum" "Open module 1c"
     click d "/modules/sdt-criterion" "Open module 1d"
+    click e "/modules/sdt-sensitivity" "Open module 1e"
 ```
 
 :::{note}
