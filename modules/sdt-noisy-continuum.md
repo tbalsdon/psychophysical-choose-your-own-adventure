@@ -55,6 +55,9 @@ external server, and you can ignore it.)*
 :::
 
 ```{code-cell} python
+# (hide matplotlib's harmless one-time "building the font cache" message)
+import logging; logging.getLogger("matplotlib.font_manager").setLevel(logging.ERROR)
+
 import numpy as np
 import matplotlib.pyplot as plt
 
