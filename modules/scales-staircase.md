@@ -62,7 +62,8 @@ tightens up (or doesn't).
 Where JNDs and Weber's law came from.
 :::
 :::{card} ➡️ Why not just ask people what it's like?
-Subjective measures of appearance. *(Coming soon.)*
+:link: scales-magnitude.md
+Subjective measures of appearance.
 :::
 ::::
 

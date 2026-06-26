@@ -33,7 +33,14 @@ The smallest change you can reliably notice — and what it reveals about percep
 :link: scales-staircase.md
 The adaptive staircase: a shortcut to the threshold.
 :::
+:::{card} Why not just ask people what it's like?
+:link: scales-magnitude.md
+Magnitude estimation and the method of adjustment.
+:::
+:::{card} The big controversy
+:link: scales-controversy.md
+Power law vs logarithm — and a tidy resolution.
+:::
 ::::
 
-*(More to come: asking people what it's like; the log-vs-power controversy; and
-maximum likelihood difference scaling.)*
+*(More to come: maximum likelihood difference scaling.)*
