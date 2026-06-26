@@ -26,6 +26,7 @@ project:
           children:
             - file: modules/sdt-forced-choice-2afc.md
             - file: modules/sdt-forced-choice-threshold.md
+        - file: modules/sdt-rating-response.md
     - file: sitemap.md
   exclude:
     - README.md

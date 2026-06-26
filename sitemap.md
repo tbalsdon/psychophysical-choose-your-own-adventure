@@ -20,6 +20,7 @@ flowchart TD
         d[1d · The criterion]:::done
         e[1e · Sensitivity]:::done
         f[1f · Forced-choice]:::done
+        g[1g · Rating-response]:::done
     end
 
     subgraph PSY [2 · Psychometrics]
@@ -36,9 +37,9 @@ flowchart TD
         dm2[Bayesian inference]:::todo
     end
 
-    b --> c --> d --> e --> f
+    b --> c --> d --> e --> f --> g
     c -. noise --> p1
-    f --> p2
+    g --> p2
     p2 --> s1
     e -. evidence accumulation .-> dm1
     d -. priors & bias .-> dm2
@@ -47,6 +48,7 @@ flowchart TD
     click d "/modules/sdt-criterion" "Open module 1d"
     click e "/modules/sdt-sensitivity" "Open module 1e"
     click f "/modules/sdt-forced-choice" "Open module 1f"
+    click g "/modules/sdt-rating-response" "Open module 1g"
 ```
 
 :::{note}

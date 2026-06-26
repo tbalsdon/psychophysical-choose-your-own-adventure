@@ -49,6 +49,7 @@ experienced differently from another signal-absent trial.
 The two-interval task and the √2 correction.
 :::
 :::{card} ➡️ The rating-response (1g)
-Getting responses across the whole ROC from a single task. *(Coming soon.)*
+:link: sdt-rating-response.md
+Getting responses across the whole ROC from a single task.
 :::
 ::::
