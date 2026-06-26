@@ -26,8 +26,15 @@ Meet the Gabor patch, and the stimulus properties we can finely control.
 :link: psy-detection.md
 How the principles of signal detection theory predict the psychometric function.
 :::
+:::{card} Discrimination and identification
+:link: psy-discrimination.md
+The same principles applied to judging a property of a clearly visible stimulus.
+:::
+:::{card} Slope, threshold, and bias
+:link: psy-slope-threshold-bias.md
+What the shape and position of the curve tell us about noise and bias.
+:::
 ::::
 
-*(More to come: discrimination & identification; slope, threshold and bias;
-measuring and fitting psychometric functions; lapses and wobbly criteria; linear
-scales and equal variance; and double-knob designs.)*
+*(More to come: measuring and fitting psychometric functions; lapses and wobbly
+criteria; linear scales and equal variance; and double-knob designs.)*

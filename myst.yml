@@ -40,6 +40,8 @@ project:
           children:
             - file: modules/psy-detection-yesno.md
             - file: modules/psy-detection-2afc.md
+        - file: modules/psy-discrimination.md
+        - file: modules/psy-slope-threshold-bias.md
     - file: sitemap.md
   exclude:
     - README.md
