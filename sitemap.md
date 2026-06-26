@@ -19,6 +19,7 @@ flowchart TD
         c[1c · A noisy continuum]:::done
         d[1d · The criterion]:::done
         e[1e · Sensitivity]:::done
+        f[1f · Forced-choice]:::done
     end
 
     subgraph PSY [2 · Psychometrics]
@@ -35,9 +36,9 @@ flowchart TD
         dm2[Bayesian inference]:::todo
     end
 
-    b --> c --> d --> e
+    b --> c --> d --> e --> f
     c -. noise --> p1
-    e --> p2
+    f --> p2
     p2 --> s1
     e -. evidence accumulation .-> dm1
     d -. priors & bias .-> dm2
@@ -45,6 +46,7 @@ flowchart TD
     click c "/modules/sdt-noisy-continuum" "Open module 1c"
     click d "/modules/sdt-criterion" "Open module 1d"
     click e "/modules/sdt-sensitivity" "Open module 1e"
+    click f "/modules/sdt-forced-choice" "Open module 1f"
 ```
 
 :::{note}

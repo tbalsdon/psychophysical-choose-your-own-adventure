@@ -22,6 +22,10 @@ project:
             - file: modules/sdt-sensitivity-accuracy.md
             - file: modules/sdt-sensitivity-norminv.md
             - file: modules/sdt-sensitivity-dprime.md
+        - file: modules/sdt-forced-choice.md
+          children:
+            - file: modules/sdt-forced-choice-2afc.md
+            - file: modules/sdt-forced-choice-threshold.md
     - file: sitemap.md
   exclude:
     - README.md

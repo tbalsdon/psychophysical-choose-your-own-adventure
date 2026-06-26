@@ -84,7 +84,8 @@ the bias problem. **Use a forced-choice task!**
 The `norminv` function used to compute d-prime.
 :::
 :::{card} ➡️ Forced-choice designs (1f)
+:link: sdt-forced-choice.md
 How a forced-choice task sidesteps the bias problem to give a cleaner measure of
-sensitivity. *(Coming soon.)*
+sensitivity.
 :::
 ::::
