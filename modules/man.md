@@ -24,7 +24,8 @@ The "psychophysicist's microelectrode": reading neural tuning from behaviour.
 Adding noise to the stimulus to limit — and probe — perception.
 :::
 :::{card} Masking
+:link: man-masking.md
 Using a second stimulus, and time, to probe processing (and "unconscious"
-perception). *(Coming soon.)*
+perception).
 :::
 ::::

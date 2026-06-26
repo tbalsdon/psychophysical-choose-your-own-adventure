@@ -92,7 +92,8 @@ experiment can give important insight into cognitive mechanisms.
 Manipulating the neurons themselves.
 :::
 :::{card} ➡️ Masking
-Using a second stimulus, and time, to probe processing. *(Coming soon.)*
+:link: man-masking.md
+Using a second stimulus, and time, to probe processing.
 :::
 ::::
 
