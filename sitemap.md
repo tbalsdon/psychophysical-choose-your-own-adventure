@@ -56,16 +56,16 @@ flowchart TD
     class a,b,d,e,f,g,h,i,nn,nv done;
     class p1,p2,s1,dm1,dm2 todo;
 
-    click a "/modules/sdt-intro"
-    click b "/modules/sdt-threshold-theories"
-    click d "/modules/sdt-criterion"
-    click e "/modules/sdt-sensitivity"
-    click f "/modules/sdt-forced-choice"
-    click g "/modules/sdt-rating-response"
-    click h "/modules/sdt-second-choice"
-    click i "/modules/sdt-equal-variance"
-    click nn "/modules/noise-noisy-neurons"
-    click nv "/modules/noise-variance"
+    click a "../modules/sdt-intro"
+    click b "../modules/sdt-threshold-theories"
+    click d "../modules/sdt-criterion"
+    click e "../modules/sdt-sensitivity"
+    click f "../modules/sdt-forced-choice"
+    click g "../modules/sdt-rating-response"
+    click h "../modules/sdt-second-choice"
+    click i "../modules/sdt-equal-variance"
+    click nn "../modules/noise-noisy-neurons"
+    click nv "../modules/noise-variance"
 ```
 
 :::{note}
