@@ -49,9 +49,14 @@ flowchart TD
         mmask[Masking]
     end
 
+    subgraph BAY [Bayesian inference]
+        bth[Bayes theorem]
+        bstat[Bayesian statistics]
+        bobs[Bayesian observers]
+    end
+
     subgraph DM [Decision models]
         dm1[Diffusion models]
-        dm2[Bayesian inference]
     end
 
     a --> b --> d --> e --> f --> g --> h --> i
@@ -65,12 +70,13 @@ flowchart TD
     nn -.-> madapt
     madapt --> mext --> mmask
     e -.-> dm1
-    d -.-> dm2
+    d -.-> bth
+    bth --> bstat --> bobs
 
     classDef done fill:#d1495b,stroke:#7a2230,color:#fff;
     classDef todo fill:#eee,stroke:#bbb,color:#888;
-    class a,b,d,e,f,g,h,i,nn,nv,pdec,pst,pme,pex,pdk,sjnd,sst,sask,sctrl,smlds,madapt,mext,mmask done;
-    class dm1,dm2 todo;
+    class a,b,d,e,f,g,h,i,nn,nv,pdec,pst,pme,pex,pdk,sjnd,sst,sask,sctrl,smlds,madapt,mext,mmask,bth,bstat done;
+    class bobs,dm1 todo;
 
     click a "../modules/sdt-intro"
     click b "../modules/sdt-threshold-theories"
@@ -95,6 +101,8 @@ flowchart TD
     click madapt "../modules/man-adaptation"
     click mext "../modules/man-external-noise"
     click mmask "../modules/man-masking"
+    click bth "../modules/bayes"
+    click bstat "../modules/bayes-statistics"
 ```
 
 :::{note}

@@ -67,6 +67,12 @@ project:
             - file: modules/man-adapt-gaze.md
         - file: modules/man-external-noise.md
         - file: modules/man-masking.md
+    - file: modules/bayes.md
+      children:
+        - file: modules/bayes-statistics.md
+          children:
+            - file: modules/bayes-stats-test.md
+            - file: modules/bayes-stats-prior.md
     - file: sitemap.md
   exclude:
     - README.md
