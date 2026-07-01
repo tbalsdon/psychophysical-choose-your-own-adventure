@@ -75,8 +75,8 @@ flowchart TD
 
     classDef done fill:#d1495b,stroke:#7a2230,color:#fff;
     classDef todo fill:#eee,stroke:#bbb,color:#888;
-    class a,b,d,e,f,g,h,i,nn,nv,pdec,pst,pme,pex,pdk,sjnd,sst,sask,sctrl,smlds,madapt,mext,mmask,bth,bstat done;
-    class bobs,dm1 todo;
+    class a,b,d,e,f,g,h,i,nn,nv,pdec,pst,pme,pex,pdk,sjnd,sst,sask,sctrl,smlds,madapt,mext,mmask,bth,bstat,bobs done;
+    class dm1 todo;
 
     click a "../modules/sdt-intro"
     click b "../modules/sdt-threshold-theories"
@@ -103,6 +103,7 @@ flowchart TD
     click mmask "../modules/man-masking"
     click bth "../modules/bayes"
     click bstat "../modules/bayes-statistics"
+    click bobs "../modules/bayes-observers"
 ```
 
 :::{note}

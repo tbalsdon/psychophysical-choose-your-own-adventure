@@ -73,6 +73,11 @@ project:
           children:
             - file: modules/bayes-stats-test.md
             - file: modules/bayes-stats-prior.md
+        - file: modules/bayes-observers.md
+          children:
+            - file: modules/bayes-obs-likelihoods.md
+            - file: modules/bayes-obs-cardinal.md
+            - file: modules/bayes-obs-biological.md
     - file: sitemap.md
   exclude:
     - README.md

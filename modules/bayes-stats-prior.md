@@ -58,6 +58,7 @@ book").
 The uniform-prior version.
 :::
 :::{card} ➡️ Bayesian observers
-From statistics to perception: Bayesian observers. *(Coming soon.)*
+:link: bayes-observers.md
+From statistics to perception: Bayesian observers.
 :::
 ::::

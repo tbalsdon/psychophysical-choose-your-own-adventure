@@ -61,8 +61,8 @@ Here A = "cab is green", B = "witness sees green". Correct answer: **41.38%**.
 Estimating a parameter from data — with a simple test and with prior knowledge.
 :::
 :::{card} Bayesian observers
+:link: bayes-observers.md
 Perception as Bayesian inference: neural orientation likelihoods and priors.
-*(Coming soon.)*
 :::
 ::::
 
