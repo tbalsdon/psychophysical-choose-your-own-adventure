@@ -1,5 +1,5 @@
 ---
-title: Psychophysics & Decision-Making
+title: A psychophysical choose-your-own adventure
 ---
 
 # Welcome 👋
@@ -40,5 +40,5 @@ licence — you are free to reuse and adapt them, with attribution.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21262216.svg)](https://doi.org/10.5281/zenodo.21262216)
 
-> Balsdon, T. (2026). *Psychophysics & Decision-Making: interactive tutorials* (v1.0).
+> Balsdon, T. (2026). *A psychophysical choose-your-own adventure* (v1.0).
 > Zenodo. https://doi.org/10.5281/zenodo.21262216

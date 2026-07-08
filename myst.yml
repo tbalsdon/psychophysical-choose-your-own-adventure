@@ -1,8 +1,8 @@
 version: 1
 project:
   id: psychophysics-tutorials
-  title: Psychophysics & Decision-Making
-  subtitle: An explorable set of interactive tutorials
+  title: A psychophysical choose-your-own adventure
+  subtitle: An explorable set of interactive tutorials on perception and decision-making
   authors:
     - name: Tarryn Balsdon
   # Interactive code is delivered via embedded JupyterLite notebooks (see
@@ -85,7 +85,7 @@ project:
 site:
   template: book-theme
   options:
-    logo_text: Psychophysics
+    logo_text: Psychophysical adventure
     hide_outline: false
     folders: true
     style: custom.css

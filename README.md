@@ -1,4 +1,6 @@
-# Psychophysics & Decision-Making — interactive tutorials
+# A psychophysical choose-your-own adventure
+
+Interactive tutorials on psychophysics and decision-making.
 
 A proof-of-concept built with **Jupyter Book 2** (MyST engine). Pages mix prose,
 build-time-rendered figures, and **in-browser editable code** (via JupyterLite /
