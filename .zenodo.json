@@ -1,0 +1,18 @@
+{
+  "title": "Psychophysics & Decision-Making: interactive tutorials",
+  "description": "An explorable set of interactive, browser-based tutorials on psychophysics and decision-making — signal detection theory, psychometrics, scaling and appearance, methods of manipulation, and Bayesian inference — combining short explanations with live, editable code that runs in the browser.",
+  "upload_type": "lesson",
+  "creators": [
+    { "name": "Balsdon, Tarryn" }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "psychophysics",
+    "decision-making",
+    "signal detection theory",
+    "Bayesian inference",
+    "interactive tutorials",
+    "teaching"
+  ]
+}

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "Psychophysics & Decision-Making: interactive tutorials"
+message: "If you use these tutorials, please cite them using the metadata below."
+type: dataset
+authors:
+  - given-names: Tarryn
+    family-names: Balsdon
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # <- add your ORCID here
+    # affiliation: "Your institution"                   # <- add your affiliation here
+abstract: >-
+  An explorable set of interactive, browser-based tutorials on psychophysics and
+  decision-making — signal detection theory, psychometrics, scaling and appearance,
+  methods of manipulation, and Bayesian inference — combining short explanations with
+  live, editable code that runs in the browser.
+keywords:
+  - psychophysics
+  - decision-making
+  - signal detection theory
+  - Bayesian inference
+  - interactive tutorials
+  - teaching
+repository-code: "https://github.com/tbalsdon/psychophysical-choose-your-own-adventure"
+url: "https://tbalsdon.github.io/psychophysical-choose-your-own-adventure/"
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-07-08"
+# After your first Zenodo release, uncomment and paste the concept (all-versions) DOI:
+# doi: "10.5281/zenodo.XXXXXXX"

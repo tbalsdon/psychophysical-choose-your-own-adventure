@@ -32,3 +32,16 @@ Bayesian inference) will follow.
 Start at the beginning: why the same stimulus is sometimes detected and sometimes
 missed, and how detection theory explains it.
 ```
+
+## How to cite
+
+These tutorials are shared under a [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+licence — you are free to reuse and adapt them, with attribution.
+
+> Balsdon, T. (2026). *Psychophysics & Decision-Making: interactive tutorials.*
+> https://tbalsdon.github.io/psychophysical-choose-your-own-adventure/
+
+:::{note} DOI
+A citable DOI is being registered via [Zenodo](https://zenodo.org) and will appear
+here — with a version history — once the first release is archived.
+:::
