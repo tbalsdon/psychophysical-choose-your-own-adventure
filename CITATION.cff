@@ -5,8 +5,8 @@ type: dataset
 authors:
   - given-names: Tarryn
     family-names: Balsdon
-    # orcid: "https://orcid.org/0000-0000-0000-0000"   # <- add your ORCID here
-    # affiliation: "Your institution"                   # <- add your affiliation here
+    orcid: "https://orcid.org/0000-0002-3122-6630"
+    affiliation: "Laboratoire des systèmes perceptifs, DEC, ENS-PSL University & CNRS"
 abstract: >-
   An explorable set of interactive, browser-based tutorials on psychophysics and
   decision-making — signal detection theory, psychometrics, scaling and appearance,
@@ -22,7 +22,6 @@ keywords:
 repository-code: "https://github.com/tbalsdon/psychophysical-choose-your-own-adventure"
 url: "https://tbalsdon.github.io/psychophysical-choose-your-own-adventure/"
 license: CC-BY-4.0
-version: "1.0.0"
+version: "1.0"
 date-released: "2026-07-08"
-# After your first Zenodo release, uncomment and paste the concept (all-versions) DOI:
-# doi: "10.5281/zenodo.XXXXXXX"
+doi: "10.5281/zenodo.21262216"
