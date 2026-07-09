@@ -26,8 +26,10 @@ csv file 'Practical_doubleJudgements_data.csv'.
 
 ::::{grid} 1 1 1 1
 :::{card} ⬇️ Download the data
-:link: ../data/Practical_doubleJudgements_data.csv
+:link: https://raw.githubusercontent.com/tbalsdon/psychophysical-choose-your-own-adventure/main/data/Practical_doubleJudgements_data.csv
 **Practical_doubleJudgements_data.csv** — 14 columns, 1 header row, 4608 trials (~245 KB).
+Opens in the browser — use your browser's *Save as…* (or right-click → *Save link as…*)
+to download it.
 :::
 ::::
 
