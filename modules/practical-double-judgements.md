@@ -74,12 +74,6 @@ Here is a fuller description of the columns:
     first, 2 = detection first.
 14. **Participant ID:** There are four participants, labelled S01, S02, S03, and S04
 
-:::{tip} A note on the column headings
-In the CSV file itself, the detection columns (8, 10, 12) are headed **"Discrim Resp"**,
-**"Discrim Correct"** and **"Discrim RT"** — these are the detection responses described
-above.
-:::
-
 ## Instructions
 
 1. Download the data and ensure you understand the columns (described in more detail

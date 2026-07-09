@@ -1,4 +1,4 @@
-﻿'1. Block','2. Trial','3. Stimulus','4. Offset','5. fliplr','6. Order','7. Ident Resp','8. Discrim Resp','9. Ident Correct','10. Discrim Correct','11. Ident RT','12. Discrim RT',13. Question Condition',14. Participant ID'
+﻿'1. Block','2. Trial','3. Stimulus','4. Offset','5. fliplr','6. Order','7. Ident Resp',8. Detect Resp','9. Ident Correct',10. Detect Correct','11. Ident RT',12. Detect RT',13. Question Condition',14. Participant ID'
 1,1,-0.25,0.25,1,2,1,1,1,0,1.438748104,1.750847577,2,S01
 1,2,-2,2,1,1,1,2,1,0,2.155423796,3.299460512,2,S01
 1,3,4,4,1,1,1,1,0,1,0.407030131,0.735003985,2,S01
