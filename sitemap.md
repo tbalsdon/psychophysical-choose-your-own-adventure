@@ -59,6 +59,10 @@ flowchart TD
         dm1[Diffusion models]
     end
 
+    subgraph PRAC [Practical exercises]
+        prac[Double-judgements practical]
+    end
+
     a --> b --> d --> e --> f --> g --> h --> i
     d -.-> nn
     i -.-> nv
@@ -72,10 +76,13 @@ flowchart TD
     e -.-> dm1
     d -.-> bth
     bth --> bstat --> bobs
+    pdk --> prac
+    g -.-> prac
+    pme -.-> prac
 
     classDef done fill:#d1495b,stroke:#7a2230,color:#fff;
     classDef todo fill:#eee,stroke:#bbb,color:#888;
-    class a,b,d,e,f,g,h,i,nn,nv,pdec,pst,pme,pex,pdk,sjnd,sst,sask,sctrl,smlds,madapt,mext,mmask,bth,bstat,bobs done;
+    class a,b,d,e,f,g,h,i,nn,nv,pdec,pst,pme,pex,pdk,sjnd,sst,sask,sctrl,smlds,madapt,mext,mmask,bth,bstat,bobs,prac done;
     class dm1 todo;
 
     click a "../modules/sdt-intro"
@@ -104,6 +111,7 @@ flowchart TD
     click bth "../modules/bayes"
     click bstat "../modules/bayes-statistics"
     click bobs "../modules/bayes-observers"
+    click prac "../modules/practical-double-judgements"
 ```
 
 :::{note}
