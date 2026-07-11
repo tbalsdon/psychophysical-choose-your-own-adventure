@@ -33,8 +33,11 @@ is more different — for three stimuli, is $(x_1, x_2)$ more different, or
 $(x_2, x_3)$? Aguilar & Maertens (2020) did this with checkerboards viewed through a
 dark or light transparent "window".
 
-Here we simulate the core method: from many triad judgements of an observer with a
-known (compressive) perceptual scale, can we recover that scale?
+Here we simulate the two-context version: an observer views the stimuli through a
+*dark* or a *light* transparent window, which shifts the luminance reaching the eye.
+Through lightness constancy they perceive the same compressive scale in both — so from
+many triad judgements, can MLDS recover that scale in each context (shifted along the
+luminance axis)?
 
 :::{tip} This code is yours to edit
 Run the cell, then edit the numbers marked `👈` and re-run. The first run takes a
@@ -44,7 +47,8 @@ few seconds while the Python engine loads.
 :::{iframe} https://tbalsdon.github.io/psychophysical-choose-your-own-adventure/lite/notebooks/index.html?path=scales-mlds.ipynb
 :width: 100%
 :label: nb-scales-mlds
-The recovered perceptual scale (points) against the true one (line).
+The recovered perceptual scale in each context (points) against the true scale (lines):
+dark vs light transparency window.
 :::
 
 [Open full-screen ↗](https://tbalsdon.github.io/psychophysical-choose-your-own-adventure/lite/notebooks/index.html?path=scales-mlds.ipynb)
