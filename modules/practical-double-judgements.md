@@ -13,20 +13,20 @@ Theory). Links to the specific pages are included in the instructions below.
 :::
 
 In this practical we will explore the psychophysics of double-judgements further. An
-introduction to double-judgements is described in the [Double-knob designs](psy-double-knob.md)
-tutorial under 'Psychometrics'.
+introduction to double-judgements is described in the [Psychometrics → Double-knob
+designs](psy-double-knob.md) tutorial.
 
 Double-judgement experiments ask an observer to make two different judgements about the
 same evidence. This helps us understand the underlying decision-space — how the
 observer's internal variable might be a transformation of the external properties of the
 stimulus.
 
-This practical is designed to highlight:
-
+:::{note} This practical is designed to highlight
 - The same information provides different evidence depending on the nature of the decision
 - How to describe different kinds of decisions made about the same information
 - How computational models can be developed and compared to test suboptimalities affecting
   decision-making
+:::
 
 We will work with real data from Balsdon & Clifford (2017). The data is available in the
 csv file 'Practical_doubleJudgements_data.csv'.
