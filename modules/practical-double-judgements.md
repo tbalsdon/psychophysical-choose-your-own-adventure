@@ -21,6 +21,13 @@ same evidence. This helps us understand the underlying decision-space — how th
 observer's internal variable might be a transformation of the external properties of the
 stimulus.
 
+This practical is designed to highlight:
+
+- The same information provides different evidence depending on the nature of the decision
+- How to describe different kinds of decisions made about the same information
+- How computational models can be developed and compared to test suboptimalities affecting
+  decision-making
+
 We will work with real data from Balsdon & Clifford (2017). The data is available in the
 csv file 'Practical_doubleJudgements_data.csv'.
 
@@ -35,31 +42,34 @@ to download it.
 
 ## The data
 
-The data file has 14 columns, 1 header row, and 4608 rows of data. Each row contains the
-information of 1 trial, on which two responses were made to indicate the choice on
+The data file has 14 columns, one header row, and 4608 rows of data. Each row contains the
+information of one trial, on which two responses were made to indicate the choice on
 Detection and Identification tasks. The presented stimuli were avatar faces, with the
 angular offset of the eyes precisely controlled to indicate different directions of gaze.
 Each trial two stimuli were presented, one with direct gaze, and the other with gaze
 offset to the left or right. The detection task was to detect which of the two faces had
-direct gaze (first or second). The identification task was to identify the direction of
-offset gaze (left or right). There were four participants with 1152 trials each.
+offset (not direct) gaze (first or second). The identification task was to identify the
+direction of offset gaze (left or right). There were four participants with 1152 trials
+each.
 
 Here is a fuller description of the columns:
 
 1. **Block:** Each participant completed 2 sessions, each with 3 blocks of 192 trials.
-   Blocks are numbered 1-3, each participant has two x each block (over the two sessions).
+   Blocks are numbered 1-3, each participant has two of each block number (over the two
+   sessions).
 2. **Trial:** trial number within each block 1- 192. With six blocks total, each
-   participant has six x trial 1 for example.
+   participant has six trials labeled 1, for example.
 3. **Stimulus:** This is the gaze deviation (in degrees) of the stimulus without direct
    gaze. Negative values are leftward, positive values are rightward gaze directions. When
-   the value is less than 0, the correct identification response should be 1, when it is
-   greater than 0, the correct identification response should be 2.
-4. **Offset:** The absolute value of stimulus.
+   the value is less than 0, the correct identification response is 1, when it is
+   greater than 0, the correct identification response is 2.
+4. **Offset:** The absolute value of Stimulus. (This can be used to calculate proportion
+   correct)
 5. **fliplr:** This is to indicate whether the stimulus was one which had been flipped
    along the vertical plane (to control for any asymmetries in the face). The left-right
    direction of gaze indicated in column three is the direction of gaze post-flipping (the
    direction presented to the observer). So this column can be ignored.
-6. **Order:** Whether the target (direct gaze stimulus) was presented first or second.
+6. **Order:** Whether the target (offset gaze stimulus) was presented first or second.
 7. **Ident Resp:** The identification response: 1 = left, 2 = right. This is correct on
    trials where the response is 1 and the value in the stimulus column (3) is less than 0,
    and on trials where the response is 2 and the value in the stimulus column (3) is
@@ -81,9 +91,9 @@ Here is a fuller description of the columns:
 2. Plot the data for each participant separately: plot the proportion of 'right' responses
    (identification; column 7) as a function of Stimulus (column 3); plot the proportion of
    'second' responses (detection; column 8) as a function of the difference in Stimulus for
-   the first and second faces (when Order (column 6) is 1, the first stimulus was 0 and the
-   second had the value in Stimulus (column 3), when Order (column 6) is 2, the first
-   stimulus had the value in Stimulus (column 3) and the second was 0).
+   the first and second faces (when Order (column 6) is 1, the second stimulus was 0 and the
+   first had the value in Stimulus (column 3), when Order (column 6) is 2, the second
+   stimulus had the value in Stimulus (column 3) and the first was 0).
 3. Fit psychometric functions to describe these proportions of responses (See
    [Psychometrics → measuring → fitting](psy-measuring-fitting.md) for an example). Do any
    points appear to diverge from the prediction of the psychometric function (one way to do
@@ -107,13 +117,16 @@ Here is a fuller description of the columns:
    will be much faster. Plot the model with the best fitting parameters ontop of the human
    data.
 6. Add another free parameter to your model: a correlation in the noise across the stimuli
-   on each trial. Does this model describe the data better (compute the Bayesian
-   Information Criterion)?
+   on each trial. Does this model describe the data better (compute, for example, the
+   Bayesian Information Criterion)?
 7. Add some bias to your model: a) a bias to perceive gaze as more or less rightward than
    it really is (a parameter that adds some constant to the value 'Stimulus'); b) a bias to
    select the first interval in the detection task (a parameter that increases the absolute
    value of the mean of the second interval by some constant). Do either of these
    parameters improve the description of the data?
+8. (Very advanced) Is there a transformation of the decision evidence that allows the
+   observer to make both the Identification and Detection decisions on the same,
+   1-dimensional, axis?
 
 ## Reference
 
