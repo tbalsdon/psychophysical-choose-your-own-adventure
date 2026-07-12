@@ -64,6 +64,10 @@ Estimating a parameter from data — with a simple test and with prior knowledge
 :link: bayes-observers.md
 Perception as Bayesian inference: neural orientation likelihoods and priors.
 :::
+:::{card} Bayesian sequential sampling
+:link: bayes-sequential.md
+Accumulating evidence over time as Bayesian inference — and what inference noise does.
+:::
 ::::
 
 ## References

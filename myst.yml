@@ -78,6 +78,7 @@ project:
             - file: modules/bayes-obs-likelihoods.md
             - file: modules/bayes-obs-cardinal.md
             - file: modules/bayes-obs-biological.md
+        - file: modules/bayes-sequential.md
     - file: modules/practical-double-judgements.md
     - file: modules/practical-mlds.md
     - file: sitemap.md

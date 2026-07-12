@@ -53,6 +53,7 @@ flowchart TD
         bth[Bayes theorem]
         bstat[Bayesian statistics]
         bobs[Bayesian observers]
+        bseq[Sequential sampling]
     end
 
     subgraph DM [Decision models]
@@ -77,6 +78,8 @@ flowchart TD
     e -.-> dm1
     d -.-> bth
     bth --> bstat --> bobs
+    bth --> bseq
+    bseq -.-> dm1
     pdk --> prac
     g -.-> prac
     pme -.-> prac
@@ -86,7 +89,7 @@ flowchart TD
 
     classDef done fill:#d1495b,stroke:#7a2230,color:#fff;
     classDef todo fill:#eee,stroke:#bbb,color:#888;
-    class a,b,d,e,f,g,h,i,nn,nv,pdec,pst,pme,pex,pdk,sjnd,sst,sask,sctrl,smlds,madapt,mext,mmask,bth,bstat,bobs,prac,pracM done;
+    class a,b,d,e,f,g,h,i,nn,nv,pdec,pst,pme,pex,pdk,sjnd,sst,sask,sctrl,smlds,madapt,mext,mmask,bth,bstat,bobs,bseq,prac,pracM done;
     class dm1 todo;
 
     click a "../modules/sdt-intro"
@@ -115,6 +118,7 @@ flowchart TD
     click bth "../modules/bayes"
     click bstat "../modules/bayes-statistics"
     click bobs "../modules/bayes-observers"
+    click bseq "../modules/bayes-sequential"
     click prac "../modules/practical-double-judgements"
     click pracM "../modules/practical-mlds"
 ```
