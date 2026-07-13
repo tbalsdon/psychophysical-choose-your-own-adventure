@@ -10,7 +10,7 @@ Part of [Bayesian inference](bayes.md).
 :::
 
 In addition to building priors into perceptual processing, humans also implement
-bayes-like computations at higher levels of processing. adjustments in the placement of
+Bayes-like computations at higher levels of processing. Adjustments in the placement of
 decision criteria, for example, have been shown to track changes in stimulus category
 likelihoods, in a manner that can be described by Bayes (e.g. Gupta et al., 2024).
 
@@ -69,6 +69,12 @@ Multiplying probabilities is proportional to summing the logs:
 \log p(A \mid \theta_2) = \log p(\theta_2 \mid A) + \log p(A \mid \theta_1)
 ```
 
+We can compute $\log p(A \mid \theta)$ directly as proportional to:
+
+```{math}
+\log p(A \mid \theta) \propto \kappa \cos(2(\theta - \mu_A))
+```
+
 This process should continue over (n) samples such that:
 
 ```{math}
@@ -97,11 +103,11 @@ with the trial averages in bold.
 You should see that the evidence (posterior / sum of log odds) quickly becomes separable,
 distinguishing the trials from each generating distribution.
 
-## Human Supoptimalities
+## Human Suboptimalities
 
 Humans are not optimal. The extent of human suboptimalities can be measured by comparing
 human behaviour to this Bayes optimal observer. Taking the ratio of human performance
-compared to the optimal is measure called 'efficiency' (Giesler 1989). One can also
+compared to the optimal is a measure called 'efficiency' (Geisler 1989). One can also
 attempt to describe human suboptimalities by distorting the optimal observer model in
 various ways and examining how this might better capture human behaviour.
 
@@ -110,7 +116,7 @@ affecting human decision-making in this task: noise affecting the loglikelihood 
 sample, and a temporal bias capturing how earlier samples contributed less to the final
 choice (recency effect). The noise was particularly interesting because it was best
 implemented at the decision-making level, not at the perceptual level (error in perceiving
-the orientation) suggesting this form on inference noise was a far greater disruptor of
+the orientation) suggesting this form of inference noise was a far greater disruptor of
 human efficiency. We will implement this below.
 
 :::{iframe} https://tbalsdon.github.io/psychophysical-choose-your-own-adventure/lite/notebooks/index.html?path=bayes-seq-noise.ipynb
@@ -122,9 +128,9 @@ vs the optimal observer.
 
 [Open full-screen ↗](https://tbalsdon.github.io/psychophysical-choose-your-own-adventure/lite/notebooks/index.html?path=bayes-seq-noise.ipynb)
 
-The mean evidence is about the same, but it is much more spread, and performance is
-substantially decreased. Just a little bit of inference noise can have a big effect on
-performance.
+The mean evidence is about the same, but the human evidence is much more spread, and so
+performance is substantially decreased. Just a little bit of inference noise can have a
+big effect on performance.
 
 ## Where to go next
 
